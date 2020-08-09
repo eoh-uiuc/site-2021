@@ -1,0 +1,81 @@
+.home-container {
+    background: linear-gradient(#161219, transparent);
+    background-color: #3a3241;
+    color: white;
+    padding-top: 5%;
+}
+
+.splash-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    h1 {
+        font-size: 4em;
+        font-weight: 600;
+        letter-spacing: 0.04em;
+    }
+
+    h2 {
+        font-size: 2em;
+        font-weight: 400;
+    }
+
+    p {
+        font-size: 1.5em;
+        font-weight: 200;
+    }
+
+
+    .splash-image {
+        padding-left: 15px;
+        height: 400px;
+    }
+}
+
+.about-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10% 30% 12% 30%;
+    text-align: center;
+}
+
+.event-details-container {
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 10%;
+
+    h1 {
+        text-align: center;
+        font-size: 2.7em;
+        font-weight: 500;
+        letter-spacing: 0.03em;
+    }
+
+    p {
+        text-align: left;
+        font-size: 1.2em;
+        font-weight: 300;
+    }
+
+    .event-details {
+        padding: 10px 30px 20px 30px;
+        border-radius: 10px;
+    }
+}
+
+.sponsors-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 7%;
+    background-color: #F6F8FB;
+
+    .sponsors-image {
+        margin-top: 20px;
+        height: 300px;
+    }
+}
