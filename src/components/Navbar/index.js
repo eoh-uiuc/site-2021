@@ -1,19 +1,12 @@
 import React, { Component } from "react";
 
-import Logo from "../../assets/eoh-logo.png";
-import "./styles.scss";
+import Logo from "../../assets/eoh-general-logo-white.png";
 
 class Navbar extends Component {
     render() {
         return (
-            <div className="navbar-wrapper">
+            <div className="navbar">
                 <img className="navbar-logo" src={Logo} />
-                <div className="navbar-links">
-                    <p>Exhibits</p>
-                    <p>Volunteer</p>
-                    <p>Sponsor</p>
-                    <p>About</p>
-                </div>
             </div>
         );
     }

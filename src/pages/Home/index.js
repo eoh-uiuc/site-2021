@@ -1,59 +1,38 @@
 import React, { Component } from "react";
 
-import "./styles.scss";
-import SplashImage from "../../assets/splash-image.svg";
-import SponsorsImage from "../../assets/sponsors.png";
-
 class Home extends Component {
     render() {
         return (
-            <div>
-                <div className="home-container">
-                    <div className="splash-container">
-                        <div>
-                            <h2>Engineering Open House</h2>
-                            <h1>Theme Name</h1>
-                            <p>March 21 - 22, 2021</p>
-                        </div>
-                        <img className="splash-image" src={SplashImage} />
-                    </div>
-                    <div className="about-container">
-                        <div>
-                            <h2>30,000+</h2>
-                            <p>Visitors</p>
-                        </div>
-                        <div>
-                            <h2>250</h2>
-                            <p>Exhibitors</p>
-                        </div>
-                        <div>
-                            <h2>50</h2>
-                            <p>Companies</p>
-                        </div>
-                    </div>
-                    <div className="event-details-container">
-                        <h1>Engineering Open House 2021</h1>
-                        <div className="event-details">
-                            <p>
-                                Engineering Open House is an annual student-led STEM fair featuring two days
-                                of exciting exhibits and captivating competitions. Join us for a celebration of the
-                                talent and ingenuity of engineering students at the University of Illinois
-                                at Urbana-Champaign.
-                            </p>
-                            <p>
-                                The event is open to the public at no cost. Families, students, and
-                                community members are invited to come and experience the atmosphere
-                                of innovation and creativity.
-                            </p>
-                        </div>
-                    </div>
+            <div className="home">
+                <div className="event-name">
+                    <h1>Engineering Open House 2021</h1>
+                    <h3>University of Illinois at Urbana-Champaign</h3>
                 </div>
-                <div className="sponsors-container">
-                    <h1>Thank You to Our Sponsors</h1>
-                    <img className="sponsors-image" src={SponsorsImage} />
+                <div className="splash-message">
+                    <h4>To the members of our EOH Community:</h4>
+                    <p> 
+                        At this point in time, the Engineering Open House Central Committee is taking 
+                        the state of our campus and country into consideration as we proceed to make decisions 
+                        for EOH 2021. We do not take this global pandemic lightly. Therefore, to prioritize the safety and 
+                        well-being of our students, visitors, and the Champaign-Urbana community, we will be 
+                        creating an EOH like never before.
+                    </p>
+                    <div />
+                    <p>
+                        Our hope is to create a virtual presence that will 
+                        allow for a more accessible event, and that will continue to hold the 
+                        same spirit of EOH from the past 100 years: to have the students of the University of 
+                        Illinois showcase the world of engineering in the hopes of 
+                        inspiring our larger community.
+                    </p>
+                    <div />
+                    <p>We appreciate your patience and support at this time, and we plan to update our website 
+                        and social media platforms with our final decision soon.
+                    </p>
+                    <p id="message-signature">— Emily Roth, Director of Engineering Open House 2021</p>
                 </div>
             </div>
-        )
+        );
     }
 }
 
