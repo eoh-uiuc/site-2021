@@ -6,7 +6,7 @@ class Navbar extends Component {
     render() {
         return (
             <div className="navbar">
-                <img className="navbar-logo" src={Logo} />
+                <img className="navbar-logo" src={Logo} alt="logo" />
             </div>
         );
     }
