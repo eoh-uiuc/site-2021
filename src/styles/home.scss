@@ -13,6 +13,7 @@
     @media (max-width: 650px) {
         background: none;
         background-color: $splashcolor;
+        h1 { font-size: 50px; }
     }
 
     .event-name {
@@ -26,6 +27,11 @@
             margin-left: 70px;
             margin-right: 70px;
         }
+
+        @media (max-width: 650px) {
+            margin-left: 40px;
+            margin-right: 40px;
+        }
     }
     
     .splash-message {
@@ -35,7 +41,7 @@
         padding: 40px 0;
         border-radius: 10px;
         box-shadow: 0 0 7px $divshadow;
-        h4 { padding-left: 70px; line-height: 23px; }
+        h4 { padding: 0 70px; line-height: 23px; }
         p { padding: 0 70px; }
 
         #message-signature {
@@ -47,6 +53,11 @@
             width: 100%;
             border-radius: 0;
             margin-bottom: 0;
+        }
+
+        @media (max-width: 650px) {
+            h4 { padding-left: 45px; }
+            p { padding: 0 45px; }
         }
     }
 }

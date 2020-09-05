@@ -1,0 +1,11 @@
+.error-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+    height: 100vh;
+    color: white; 
+
+    img { height: 40%; }
+}
