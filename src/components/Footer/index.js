@@ -10,6 +10,7 @@ class Footer extends Component {
                 <div className="footer-links">
                     <a href="mailto:eoh@ec.illinois.edu">EMAIL US</a>
                     <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/EngineeringOpenHouse/">FACEBOOK</a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/IllinoisEOH">TWITTER</a>
                     <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/eoh_illinois/">INSTAGRAM</a>
                 </div>
             </div>
