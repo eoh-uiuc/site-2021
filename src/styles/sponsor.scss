@@ -2,11 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Chivo&family=Montserrat&family=Open+Sans&display=swap');
 
 .sponsor-container {
-    background: grey;
     box-sizing: border-box;
     position: relative;
     padding: 170px 200px;
-    color: white;
 
     @media (max-width: 760px) { padding: 140px 40px; }
 

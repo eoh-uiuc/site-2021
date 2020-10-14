@@ -9,15 +9,56 @@
     z-index: 1000;
     position: absolute;
     
-    a { color: white; }
+    a { color: black; }
 
+    .menu-icon { display: none; }
+    
     .navbar-logo {
-        height: 36px;
+        height: 42px;
         padding-left: 55px;
     }
 
     .navbar-links {
         padding-right: 55px;
         .navbar-text{ padding-left: 43px; }
+    }
+
+    @media (max-width: 760px) {
+        .menu-icon { 
+            display: inline-block;
+            height: 32px;
+            padding-right: 55px;
+            &:hover { cursor: pointer; }
+        }
+
+        .navbar-links {
+      
+
+            &.menu-close {
+                display: none;
+            }
+
+            &.menu-open {
+                height: 100%;
+                width: 100%;
+                position: fixed;
+                top: 80px;
+                left: 0;
+                background-color: rgba(255,255,255, 0.9);
+                backdrop-filter: blur(5px);
+                display: flex;
+                flex-direction: column;
+                text-align: right;
+                padding-top: 25%;
+
+                .navbar-text{
+                    padding-left: 0;
+                    padding-right: 55px;
+                    line-height: 95px;
+                    font-size: 38px;
+                    font-weight: bold;
+                }
+            }
+        }
     }
 }
