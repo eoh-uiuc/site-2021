@@ -13,6 +13,7 @@ class Navbar extends Component {
 
                 <div className="navbar-links">
                     <a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSd76ndm0137Ud-vfG9h-8tTbobY-v0n_X_3VBaDkaVxXthm9g/viewform?usp=sf_link">Exhibitors</a>
+                    <Link className="navbar-text" to="/faq">FAQ</Link>
                     <Link className="navbar-text" to="/sponsors">Sponsor Us</Link>
                     {/* <Link className="navbar-text" to="/about">About Us</Link> */}
                 </div>
