@@ -3,9 +3,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: grey;
     height: 100vh;
-    color: white; 
+    color: black; 
 
-    img { height: 40%; }
+    img { height: 450px; }
+
+    @media (max-width: 650px) {
+        img { height: 30%; }
+    }
 }

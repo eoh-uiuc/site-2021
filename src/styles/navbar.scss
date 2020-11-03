@@ -5,9 +5,10 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding-top: 20px;
+    padding: 13px 0px;
     z-index: 1000;
-    position: absolute;
+    position: fixed;
+    top: 0;
     
     a { color: black; }
 
@@ -23,29 +24,34 @@
         .navbar-text{ padding-left: 43px; }
     }
 
+    &.scrolled {
+        background-color: rgba(255,255,255, 0.8);
+        backdrop-filter: blur(6px);
+        box-shadow: 0px 5px 10px -4px rgba(0,0,0,0.1);
+    }
+
     @media (max-width: 760px) {
         .menu-icon { 
             display: inline-block;
-            height: 32px;
             padding-right: 55px;
-            &:hover { cursor: pointer; }
+        }
+
+        &.navbar-open {
+            background-color: white;
         }
 
         .navbar-links {
-      
-
-            &.menu-close {
+            &.menu-links-close {
                 display: none;
             }
-
-            &.menu-open {
+            &.menu-links-open {
                 height: 100%;
                 width: 100%;
                 position: fixed;
                 top: 80px;
                 left: 0;
-                background-color: rgba(255,255,255, 0.9);
-                backdrop-filter: blur(5px);
+                background-color: rgba(255,255,255, 0.8);
+                backdrop-filter: blur(6px);
                 display: flex;
                 flex-direction: column;
                 text-align: right;
@@ -53,7 +59,7 @@
 
                 .navbar-text{
                     padding-left: 0;
-                    padding-right: 55px;
+                    padding-right: 60px;
                     line-height: 95px;
                     font-size: 38px;
                     font-weight: bold;
