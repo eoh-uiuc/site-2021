@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import Sponsor from "./pages/Sponsor";
+import FAQ from "./pages/FAQ";
 import Error from "./pages/Error";
 import Visitors from "./pages/Visitors";
 // import About from "./pages/About";
