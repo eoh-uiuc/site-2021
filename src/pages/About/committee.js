@@ -1,15 +1,25 @@
-import Isha from "../../assets/headshots/Isha.png";
-import Karen from "../../assets/headshots/Karen.png";
+import Isha from "../../assets/headshots/Isha.jpg";
+import Karen from "../../assets/headshots/Karen.jpg";
 import Pavan from "../../assets/headshots/Pavan.png";
 import Michaela from "../../assets/headshots/Michaela.png";
-import Jackie from "../../assets/headshots/Jackie.png";
-import Anushka from "../../assets/headshots/Anushka.png";
-import Alara from "../../assets/headshots/Alara.png";
-import Abhi from "../../assets/headshots/Abhi.png";
-import Lauren from "../../assets/headshots/Lauren.png";
-import Emily from "../../assets/headshots/Emily.png";
-import Nafiz from "../../assets/headshots/Nafiz.png";
-import Jenni from "../../assets/headshots/Jenni.png";
+import Jackie from "../../assets/headshots/Jackie.jpg";
+import Anushka from "../../assets/headshots/Anushka.jpg";
+import Alara from "../../assets/headshots/Alara.jpg";
+import Abhi from "../../assets/headshots/Abhi.jpg";
+import Lauren from "../../assets/headshots/Lauren.jpg";
+import Emily from "../../assets/headshots/Emily.jpg";
+import Nafiz from "../../assets/headshots/Nafiz.jpg";
+import Jenni from "../../assets/headshots/Jenni.jpg";
+import Kavya from "../../assets/headshots/Kavya.jpg";
+import Sid from "../../assets/headshots/Sid.jpg";
+import Victoria from "../../assets/headshots/Victoria.jpg";
+import Bella from "../../assets/headshots/Bella.jpg";
+import Riya from "../../assets/headshots/Riya.jpg";
+import Maneesh from "../../assets/headshots/Maneesh.jpg";
+import Jack from "../../assets/headshots/Jack.jpg";
+import Alice from "../../assets/headshots/Alice.jpg";
+import Sagar from "../../assets/headshots/Sagar.jpg";
+import Kelly from "../../assets/headshots/Kelly.jpg";
 
 const committee = [
   {
@@ -20,17 +30,17 @@ const committee = [
   {
     name: 'Kavya Sudhir',
     position: 'Director of Exhibits',
-    headshot: Isha,
+    headshot: Kavya,
   },
   {
     name: 'Sid Kandimalla',
     position: 'Senior Corporate',
-    headshot: Isha,
+    headshot: Sid,
   },
   {
     name: 'Victoria Kindratenko',
     position: 'Junior Corporate',
-    headshot: Isha,
+    headshot: Victoria,
   },
   {
     name: 'Abhi Chebiyam',
@@ -45,12 +55,12 @@ const committee = [
   {
     name: 'Bella Ramos',
     position: 'Creative Director',
-    headshot: Isha,
+    headshot: Bella,
   },
   {
     name: 'Riya Dave',
     position: 'Creative Director',
-    headshot: Isha,
+    headshot: Riya,
   },
   {
     name: 'Alara Sunar',
@@ -70,7 +80,7 @@ const committee = [
   {
     name: 'Maneesh Madala',
     position: 'Internal Marketing',
-    headshot: Isha,
+    headshot: Maneesh,
   },
   {
     name: 'Pavan Marempudi',
@@ -95,17 +105,17 @@ const committee = [
   {
     name: 'Jack Lanser',
     position: 'Director of Technology',
-    headshot: Isha,
+    headshot: Jack,
   },
   {
     name: 'Alice Perng',
     position: 'Special Events',
-    headshot: Isha,
+    headshot: Alice,
   },
   {
     name: 'Sagar Sachdev',
     position: 'Advancement',
-    headshot: Isha,
+    headshot: Sagar,
   },
   {
     name: 'Michaela Patton',
@@ -120,7 +130,7 @@ const committee = [
   {
     name: 'Kelly Ma',
     position: 'Historian',
-    headshot: Isha,
+    headshot: Kelly,
   },
   {
     name: 'Jenni Nugent',

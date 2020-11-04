@@ -7,7 +7,7 @@ import Home from "./pages/Home";
 import Sponsor from "./pages/Sponsor";
 import Error from "./pages/Error";
 import Visitors from "./pages/Visitors";
-// import About from "./pages/About";
+import About from "./pages/About";
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
           <Route path="/" exact component={Home} />
           <Route path="/sponsors" exact component={Sponsor} />
           <Route path="/visitors" exact component={Visitors} />
-          {/* <Route path="/about" exact component={About} /> */}
+          <Route path="/about" exact component={About} />
           <Route exact component={Error} />
         </Switch>
         <Footer />
