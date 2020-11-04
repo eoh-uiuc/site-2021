@@ -8,7 +8,7 @@ class About extends Component {
         return (
             <div className="about-wrapper">
                 <h2>EOH Central Committee</h2>
-                <p>About the committee</p>
+                {/* <p>Blurb about the committee</p> */}
                 
                 <div className="profiles">
                     {committee.map(c => <Profile {...c} key={c.name} />)}
