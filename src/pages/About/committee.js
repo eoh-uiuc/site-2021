@@ -1,7 +1,7 @@
 import Isha from "../../assets/headshots/Isha.jpg";
 import Karen from "../../assets/headshots/Karen.jpg";
-import Pavan from "../../assets/headshots/Pavan.png";
-import Michaela from "../../assets/headshots/Michaela.png";
+import Pavan from "../../assets/headshots/Pavan.jpg";
+import Michaela from "../../assets/headshots/Michaela.jpg";
 import Jackie from "../../assets/headshots/Jackie.jpg";
 import Anushka from "../../assets/headshots/Anushka.jpg";
 import Alara from "../../assets/headshots/Alara.jpg";
@@ -20,6 +20,10 @@ import Jack from "../../assets/headshots/Jack.jpg";
 import Alice from "../../assets/headshots/Alice.jpg";
 import Sagar from "../../assets/headshots/Sagar.jpg";
 import Kelly from "../../assets/headshots/Kelly.jpg";
+import Manav from "../../assets/headshots/Manav.jpg";
+import Ammar from "../../assets/headshots/Ammar.jpg";
+import Saagar from "../../assets/headshots/Saagar.jpg";
+import Nakul from "../../assets/headshots/Nakul.png";
 
 const committee = [
   {
@@ -93,6 +97,11 @@ const committee = [
     headshot: Nafiz,
   },
   {
+    name: 'Ammar Master',
+    position: 'HSDC',
+    headshot: Ammar,
+  },
+  {
     name: 'Anushka Desai',
     position: 'MSDC',
     headshot: Anushka,
@@ -125,7 +134,7 @@ const committee = [
   {
     name: 'Manav Modi',
     position: 'Startup Showcase',
-    headshot: Isha,
+    headshot: Manav,
   },
   {
     name: 'Kelly Ma',
@@ -136,6 +145,16 @@ const committee = [
     name: 'Jenni Nugent',
     position: 'Graduate Advisor',
     headshot: Jenni,
+  },
+  {
+    name: 'Saagar Kolachina',
+    position: 'EFC',
+    headshot: Saagar,
+  },
+  {
+    name: 'Nakul Iyer',
+    position: 'EFC',
+    headshot: Nakul,
   },
 ];
 
