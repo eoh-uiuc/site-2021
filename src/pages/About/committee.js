@@ -24,6 +24,7 @@ import Manav from "../../assets/headshots/Manav.jpg";
 import Ammar from "../../assets/headshots/Ammar.jpg";
 import Saagar from "../../assets/headshots/Saagar.jpg";
 import Nakul from "../../assets/headshots/Nakul.png";
+import Amritha from "../../assets/headshots/Amritha.jpg";
 
 const committee = [
   {
@@ -35,6 +36,16 @@ const committee = [
     name: 'Kavya Sudhir',
     position: 'Director of Exhibits',
     headshot: Kavya,
+  },
+  {
+    name: 'Alara Sunar',
+    position: 'Facilities & Equipment',
+    headshot: Alara,
+  },
+  {
+    name: 'Amritha Bellary',
+    position: 'Visitor\'s Info',
+    headshot: Amritha,
   },
   {
     name: 'Sid Kandimalla',
@@ -65,11 +76,6 @@ const committee = [
     name: 'Riya Dave',
     position: 'Creative Director',
     headshot: Riya,
-  },
-  {
-    name: 'Alara Sunar',
-    position: 'Facilities & Equipment',
-    headshot: Alara,
   },
   {
     name: 'Karen Yang',
