@@ -8,6 +8,7 @@ import Sponsor from "./pages/Sponsor";
 import Error from "./pages/Error";
 import Visitors from "./pages/Visitors";
 import About from "./pages/About";
+import Exhibits from "./pages/Exhibits";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Navbar />
         <Switch>
           <Route path="/" exact component={Home} />
+          <Route path="/exhibits" exact component={Exhibits} />
           <Route path="/sponsors" exact component={Sponsor} />
           <Route path="/visitors" exact component={Visitors} />
           <Route path="/about" exact component={About} />

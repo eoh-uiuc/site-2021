@@ -57,14 +57,12 @@ const faqStyles = {
     rowContentColor: 'grey',
 };
 
-class Visitors extends Component {
-    render() {
-        return (
-            <div className="visitors-container">
-                <Faq data={faqData} styles={faqStyles} />
-            </div>
-        );
-    }
+const Visitors = () => {
+    return (
+        <div className="visitors-container">
+            <Faq data={faqData} styles={faqStyles} />
+        </div>
+    );
 }
 
 export default Visitors;

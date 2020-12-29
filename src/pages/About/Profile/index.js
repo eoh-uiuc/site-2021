@@ -1,15 +1,13 @@
-import React, { Component } from "react";
+import React from "react";
 
-class Profile extends Component {
-    render() {
-        return (
-            <div className="profile-wrapper">
-                <img src={this.props.headshot} alt="headshot" />
-                <p id="member-name">{this.props.name}</p>
-                <p id="member-position">{this.props.position}</p>
-            </div>
-        );
-    }
+const Profile = ({ headshot, name, position }) => {
+    return (
+        <div className="profile-wrapper">
+            <img src={headshot} alt="headshot" />
+            <p id="member-name">{name}</p>
+            <p id="member-position">{position}</p>
+        </div>
+    );
 }
 
 export default Profile;

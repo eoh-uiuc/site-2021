@@ -1,21 +1,19 @@
-import React, { Component } from "react";
+import React from "react";
 
 import Profile from "./Profile";
 import committee from "./committee.js";
 
-class About extends Component {
-    render() {
-        return (
-            <div className="about-wrapper">
-                <h2>EOH Central Committee</h2>
-                {/* <p>Blurb about the committee</p> */}
-                
-                <div className="profiles">
-                    {committee.map(c => <Profile {...c} key={c.name} />)}
-                </div>
+const About = () => {
+    return (
+        <div className="about-wrapper">
+            <h2>EOH Central Committee</h2>
+            {/* <p>Blurb about the committee</p> */}
+            
+            <div className="profiles">
+                {committee.map(c => <Profile {...c} key={c.name} />)}
             </div>
-        );
-    }
+        </div>
+    );
 }
 
 export default About;
