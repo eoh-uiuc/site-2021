@@ -1,6 +1,8 @@
 import React, { useState } from "react";
+import Pins from "../../components/Pins";
 
-import ReactMapGL from 'react-map-gl';
+import ReactMapGL from "react-map-gl";
+import buildingData from "./building-data.js";
 
 const Exhibits = () => {
 	const [viewport, setViewport] = useState({
@@ -17,7 +19,9 @@ const Exhibits = () => {
 				{...viewport}
 				mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_ACCESS_TOKEN}
 				onViewportChange={nextViewport => setViewport(nextViewport)}
-			/>
+			>
+				<Pins data={buildingData} />
+			</ReactMapGL>
 		</div>
 	);
 }
