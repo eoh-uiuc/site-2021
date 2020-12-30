@@ -2,11 +2,10 @@ import React from "react";
 import PinIcon from "../../assets/pin.png";
 import { Marker } from "react-map-gl";
 
-const Pins = ({ data }) => {
+const Pins = ({ data, handlePinClick }) => {
 	return data.map(
 		building => <Marker latitude={building.latitude} longitude={building.longitude}>
-			<img src={PinIcon} height={30} />
-			<p>{building.name}</p>
+			<img className="exhibits-pin-image" src={PinIcon} height={30} onClick={() => handlePinClick(building)} alt="pin" />
 		</Marker>
 	);
 }

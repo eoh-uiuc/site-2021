@@ -4,3 +4,34 @@
 	justify-content: center;
 	align-items: center;
 }
+
+.exhibits-pin-popup {
+	width: 250px;
+
+	p { line-height: 15px; }
+
+	.exhibits-popup-title {
+		font-size: 15px;
+		margin: 0;
+	}
+
+	.exhibits-popup-description {
+		color: grey;
+		font-size: 12px;
+	}
+
+	.exhibits-popup-button {
+		font-family: 'Montserrat', sans-serif;
+		background-color: white;
+		border-radius: 8px;
+		border: 2px solid #878787;
+		padding: 4px 6px;
+		&:hover {
+			border-color: #656565;
+		}
+	}
+}
+
+.exhibits-pin-image {
+	cursor: pointer;
+}
