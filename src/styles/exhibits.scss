@@ -1,8 +1,17 @@
+@import "colors";
+
 .exhibits-map-wrapper {
 	display: flex;
 	height: 100vh;
 	justify-content: center;
 	align-items: center;
+	.react-map-gl-wrapper {
+		height: 60%;
+		width: 580px;
+		@media (max-width: 630px) {
+			width: 100%;
+		}
+	}
 }
 
 .exhibits-pin-popup {
@@ -22,16 +31,83 @@
 
 	.exhibits-popup-button {
 		font-family: 'Montserrat', sans-serif;
-		background-color: white;
+		outline: none;
+		background-color: $eohred;
 		border-radius: 8px;
-		border: 2px solid #878787;
-		padding: 4px 6px;
+		border: none;
+		color: white;
+		padding: 4px 8px;
 		&:hover {
-			border-color: #656565;
+			background-color: $eohreddarker;
+			cursor: pointer;
 		}
 	}
 }
 
 .exhibits-pin-image {
 	cursor: pointer;
+}
+
+.exhibit-page-wrapper {
+	padding: 170px 200px;
+    @media (max-width: 760px) { padding: 140px 40px; }
+
+	.exhibit-videos {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		
+		.exhibit-card-wrapper {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			box-sizing: border-box;
+			box-shadow: 0px 0px 8px 1px #e3e3e3;
+			padding: 18px;
+			margin-bottom: 40px;
+			width: 30%;
+			@media (max-width: 1295px) { width: 45%; }
+			@media (max-width: 1025px) { width: 380px; }
+			@media (max-width: 760px) { width: 45%; }
+			@media (max-width: 625px) { width: 100%; }
+
+			.exhibit-card-rso-name {
+				color: grey;
+				margin: 0 0 1px 0;
+				font-size: 14px;
+			}
+
+			.exhibit-card-video {
+				height: 200px;
+			}
+
+			.exhibit-card-name {
+				margin: 10px 0 10px 0;
+				line-height: 28px;
+			}
+
+			.exhibit-card-description {
+				margin: 0 0 10px 0;
+				line-height: 20px;
+				font-size: 14px;
+				color: grey;
+			}
+
+			.exhibit-card-link {
+				font-family: 'Montserrat', sans-serif;
+				outline: none;
+				color: white;
+				background-color: $eohred;
+				border-radius: 15px;
+				border: none;
+				padding: 4px 10px;
+				margin-right: 6px;
+				&:hover {
+					cursor: pointer;
+					background-color: $eohreddarker;
+				}
+			}
+		}
+	}
 }

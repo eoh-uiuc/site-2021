@@ -1,0 +1,22 @@
+import React, { useState } from "react";
+import ReactPlayer from "react-player";
+
+const ExhibitCard = ({ data }) => {
+	return (
+		<div className="exhibit-card-wrapper">
+			<div className="exhibit-card-content">
+				<p className="exhibit-card-rso-name">{data.rso}</p>
+				<div className="exhibit-card-video">
+					<ReactPlayer width="100%" height="100%" url={data.video} />
+				</div>
+				<h4 className="exhibit-card-name">{data.name}</h4>
+				<p className="exhibit-card-description">{data.description}</p>
+			</div>
+			<div className="exhibit-card-footer">
+				{data.links.map(link => <a target="_blank" rel="noopener noreferrer" href={link.address}><button className="exhibit-card-link">{link.name}</button></a>)}
+			</div>
+		</div>
+	);
+}
+
+export default ExhibitCard;

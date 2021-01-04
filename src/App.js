@@ -9,6 +9,7 @@ import Error from "./pages/Error";
 import Visitors from "./pages/Visitors";
 import About from "./pages/About";
 import Exhibits from "./pages/Exhibits";
+import ExhibitPage from "./pages/Exhibits/exhibitPage.js";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/exhibits" exact component={Exhibits} />
+          <Route path="/exhibits/:handle" component={ExhibitPage} />
           <Route path="/sponsors" exact component={Sponsor} />
           <Route path="/visitors" exact component={Visitors} />
           <Route path="/about" exact component={About} />
