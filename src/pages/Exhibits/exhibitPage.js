@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { useLocation } from "react-router-dom";
 import ExhibitCard from "../../components/ExhibitCard";
 
 import exhibitData from "./exhibitData.js";
@@ -17,7 +16,7 @@ const ExhibitPage = (props) => {
 				setData(building[0]);
 			}
 		}
-	});
+	}, [data, location.state, location.pathname]);
 
 	return (
 		data && 
