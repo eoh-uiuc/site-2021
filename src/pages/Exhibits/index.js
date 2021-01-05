@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Pins from "../../components/Pins";
 
-import ReactMapGL, { Popup } from "react-map-gl";
+import StaticMap, { Popup } from "react-map-gl";
 import exhibitData from "./exhibitData.js";
 
 const Exhibits = () => {
@@ -51,7 +51,7 @@ const Exhibits = () => {
 	return (
 		<div className="exhibits-map-wrapper">
 			<div className="react-map-gl-wrapper">
-				<ReactMapGL
+				<StaticMap
 					{...viewport}
 					mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_ACCESS_TOKEN}
 					onViewportChange={nextViewport => setViewport(nextViewport)}
@@ -60,7 +60,7 @@ const Exhibits = () => {
 				>
 					<Pins data={exhibitData} handlePinClick={handlePinClick} />
 					{renderPopup()}
-				</ReactMapGL>
+				</StaticMap>
 			</div>
 		</div>
 	);
