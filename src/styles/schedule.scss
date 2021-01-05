@@ -13,8 +13,22 @@
 	}
 
 	.schedule-card-wrapper {
-		border: solid;
-		margin: 35px 60px;
+		padding: 40px 60px;
+
+		.schedule-card-time {
+			margin: 0;
+		}
+
+		.schedule-card-name {
+			margin: 6px 0;
+			font-weight: bold;
+		}
+
+		.schedule-card-description {
+			margin-top: 0;
+			font-size: 15px;
+		}
+
 		.schedule-card-link {
 			margin-right: 6px;
 		}
