@@ -42,6 +42,7 @@ const Navbar = () => {
             </div>
 
             <div className={`navbar-links ${menuOpen ? 'menu-links-open': 'menu-links-close'}`}>
+                <Link className="navbar-text" onClick={hideMenu} to="/schedule">Schedule</Link>
                 <Link className="navbar-text" onClick={hideMenu} to="/exhibits">Exhibits</Link>
                 <Link className="navbar-text" onClick={hideMenu} to="/visitors">Visitors</Link>
                 <Link className="navbar-text" onClick={hideMenu} to="/sponsors">Sponsor Us</Link>
