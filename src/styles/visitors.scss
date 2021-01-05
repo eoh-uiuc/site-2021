@@ -4,18 +4,11 @@
 .visitors-container {
     display: flex;
     justify-content: center;
-    height: 100%;
-    padding: 170px 200px 120px 200px;
-
-    @media (max-width: 800px) { padding: 140px 80px; }
 
     .faq-row-wrapper {
         width: 60%;
         @media (max-width: 1300px) { width: 100% }
 
-        .faq-title {
-            font-family: 'Chivo', sans-serif;
-        }
         .faq-body {
             .faq-row {
                 .row-title {

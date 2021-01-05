@@ -21,7 +21,7 @@ const ExhibitPage = (props) => {
 
 	return (
 		data && 
-		<div className="exhibit-page-wrapper">
+		<div className="page-container exhibit-page-wrapper">
 			<h2>{data.name}</h2>
 			<div className="exhibit-page-about">
 				<p>{data.description}</p>

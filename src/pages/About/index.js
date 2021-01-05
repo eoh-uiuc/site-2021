@@ -5,7 +5,7 @@ import committee from "./committee.js";
 
 const About = () => {
     return (
-        <div className="about-wrapper">
+        <div className="page-container about-wrapper">
             <h2>EOH Central Committee</h2>
             {/* <p>Blurb about the committee</p> */}
             

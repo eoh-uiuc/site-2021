@@ -59,7 +59,7 @@ const faqStyles = {
 
 const Visitors = () => {
     return (
-        <div className="visitors-container">
+        <div className="page-container visitors-container">
             <Faq data={faqData} styles={faqStyles} />
         </div>
     );

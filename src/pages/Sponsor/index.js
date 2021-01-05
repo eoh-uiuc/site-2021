@@ -2,7 +2,7 @@ import React from "react";
 
 const Sponsor = () => {
     return (
-        <div className="sponsor-container">
+        <div className="page-container sponsor-container">
             <p id="page-description">When you make your sponsorship selection, you will be transferred to the 
                 University of Illinois Foundation's secure giving form to complete your gift and enter your 
                 personal and payment information. All gifts are tax deductible as allowed by law.
