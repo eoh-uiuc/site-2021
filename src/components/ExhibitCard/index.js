@@ -13,7 +13,7 @@ const ExhibitCard = ({ data }) => {
 				<p className="exhibit-card-description">{data.description}</p>
 			</div>
 			<div className="exhibit-card-footer">
-				{data.links.map(link => <a target="_blank" rel="noopener noreferrer" href={link.address}><button className="exhibit-card-link">{link.name}</button></a>)}
+				{data.links.map(link => <a target="_blank" rel="noopener noreferrer" href={link.address}><button className="red-link-button exhibit-card-link">{link.name}</button></a>)}
 			</div>
 		</div>
 	);

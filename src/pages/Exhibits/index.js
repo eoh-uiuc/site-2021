@@ -39,7 +39,7 @@ const Exhibits = () => {
 							data: popupInfo
 						}
 					}}>
-						<button className="exhibits-popup-button">
+						<button className="red-link-button">
 							View Exhibits
 						</button>
 					</Link>

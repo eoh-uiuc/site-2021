@@ -28,20 +28,6 @@
 		color: grey;
 		font-size: 12px;
 	}
-
-	.exhibits-popup-button {
-		font-family: 'Montserrat', sans-serif;
-		outline: none;
-		background-color: $eohred;
-		border-radius: 8px;
-		border: none;
-		color: white;
-		padding: 4px 8px;
-		&:hover {
-			background-color: $eohreddarker;
-			cursor: pointer;
-		}
-	}
 }
 
 .exhibits-pin-image {
@@ -92,18 +78,7 @@
 			}
 
 			.exhibit-card-link {
-				font-family: 'Montserrat', sans-serif;
-				outline: none;
-				color: white;
-				background-color: $eohred;
-				border-radius: 15px;
-				border: none;
-				padding: 4px 10px;
 				margin-right: 6px;
-				&:hover {
-					cursor: pointer;
-					background-color: $eohreddarker;
-				}
 			}
 		}
 	}
