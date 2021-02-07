@@ -15,6 +15,9 @@ const ExhibitCard = ({ data }) => {
 			<div className="exhibit-card-footer">
 				{data.links.map(link => <a target="_blank" rel="noopener noreferrer" href={link.address}><button className="red-link-button exhibit-card-link">{link.name}</button></a>)}
 			</div>
+			<div className="exhibit-card-tagline">
+				{data.tags.map(tag => <p className="exhibit-card-tag">{tag}</p>)}
+			</div>
 		</div>
 	);
 }

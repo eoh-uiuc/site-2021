@@ -5,6 +5,7 @@ const exhibitData = [
 		latitude: 40.1121,
 		longitude: -88.2263,
 		description: "In Spring 2019, construction began on a three-story addition to the south face of Talbot Laboratory.",
+		tags: "mechanical",
 		exhibits: [
 			{
 				name: "Exhibit Name",
@@ -84,6 +85,11 @@ const exhibitData = [
 				rso: "Engineering Council",
 				video: "https://www.youtube.com/watch?v=fLM5F0u0D9E",
 				description: "2-3 sentences describing the exhibit video.",
+				tags: ["mechanical",
+						"easy",
+						"quick",
+						"natural"
+					],
 				links: [
 					{
 						name: "RSO Site",
@@ -100,6 +106,9 @@ const exhibitData = [
 				rso: "Engineering Council",
 				video: "https://www.youtube.com/watch?v=fLM5F0u0D9E",
 				description: "2-3 sentences describing the exhibit video.",
+				tags: ["mechanical",
+						"easy",
+					],
 				links: [
 					{
 						name: "RSO Site",
@@ -116,6 +125,10 @@ const exhibitData = [
 				rso: "Engineering Council",
 				video: "https://www.youtube.com/watch?v=fLM5F0u0D9E",
 				description: "2-3 sentences describing the exhibit video.",
+				tags: ["mechanical",
+						"difficult",
+						"long"
+					],
 				links: [
 					{
 						name: "RSO Site",
@@ -132,6 +145,10 @@ const exhibitData = [
 				rso: "Engineering Council",
 				video: "https://www.youtube.com/watch?v=fLM5F0u0D9E",
 				description: "2-3 sentences describing the exhibit video.",
+				tags: ["mechanical",
+						"easy",
+						"long"
+					],
 				links: [
 					{
 						name: "RSO Site",

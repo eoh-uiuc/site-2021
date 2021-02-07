@@ -80,6 +80,19 @@
 			.exhibit-card-link {
 				margin-right: 6px;
 			}
+
+			.exhibit-card-tagline {
+				margin-top: 5px;		
+
+				.exhibit-card-tag {
+					background-color: $tagblue;
+					border-radius: 10px;
+					display: inline;
+					padding: 2px 8px;
+					margin-right: 6px;
+					font-size: small;
+				}
+			}
 		}
 	}
 }
