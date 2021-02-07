@@ -38,7 +38,7 @@ const faqData = {
         },
         {
             title: "Wil there be a Tesla Coil Concert?",
-            content: `More information about this coming soon! We are hoping to have a socially distant event, following a drive-in concert format this year.`
+            content: `Unfortunately, there will not be a Tesla Coil concert this year due to Covid-19 restrictions.`
         },
         {
             title: "Will there be Robobrawl?",
