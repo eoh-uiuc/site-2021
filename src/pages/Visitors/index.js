@@ -20,12 +20,6 @@ const faqData = {
             activities, live streams, and live Q&As.`,
     },
     {
-      title: "How will exhibit judging work this year?",
-      content: `We will still be judging exhibits this year, though there will be fewer judging categories
-            and awards compared to previous years. Pre-recorded exhibits may be privately sent out to judges a few days
-            prior to EOH weekend so that judges will have enough time to view them.`,
-    },
-    {
       title: "Will I be able to go on a campus tour?",
       content: `There will be opportunities for virtual tours. More information coming about additional informational sessions soon.`,
     },
