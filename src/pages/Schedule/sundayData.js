@@ -19,9 +19,13 @@ const sundayData = [
 				startTime: "11:30 AM",
 				endTime: "12:00 PM CT",
 				name: "WYSE Introduction",
-				description: "Sign on here to hear more about the WYSE (Worldwide Young Science and Engineering Program) group here on campus! They bring together pre-college students with college students to prepare middle and high school students for a successful career in engineering. Stay on immediately after this for a tour of the engineering campus given by our E-STAR tour guides!",
+				description: "Pre-registration Required - Zoom link will be sent via email after registration. Sign on here to hear more about the WYSE (Worldwide Young Science and Engineering Program) group here on campus! They bring together pre-college students with college students to prepare middle and high school students for a successful career in engineering. Stay on immediately after this for a tour of the engineering campus given by our E-STAR tour guides!",
 				zoom: "",
 				links: [
+					{
+						name: "Pre-registration",
+						link: "https://enroll.illinois.edu/register/?id=242664f0-f847-43ed-b1f9-9c11676c5f52"
+					}
 				],
 			}
 		],
@@ -37,8 +41,8 @@ const sundayData = [
 				zoom: "",
 				links: [
 					{
-						name: "Other Links",
-						link: "http://www.ec.illinois.edu",
+						name: "Join Zoom",
+						link: "https://illinois.zoom.us/j/88430474061?pwd=SjZ1K2NoWGQ2L2NlS25OcVZ2KzdYdz09",
 					}
 				],
 			},
@@ -51,7 +55,7 @@ const sundayData = [
 				startTime: "1:00 PM",
 				endTime: "2:00 PM CT",
 				name: "Life at Grainger Engineering: Prospective Students Panel with Engineering Ambassadors",
-				description: "Join us for two panels with the Engineering Ambassadors to explore life at UofI! This will be a great opportunity for prospective students to learn about academics and the resources available to them through the Grainger College of Engineering. Attendees will also be able to ask current students any questions they may have!",
+				description: "Join us for a panel with the Engineering Ambassadors to explore life at UofI! This will be a great opportunity for prospective students to learn about academics and the resources available to them through the Grainger College of Engineering. Attendees will also be able to ask current students any questions they may have! Panelist Majors: BioEngineering, Civil and Environmental Engineering, Material Science Engineering, Chemical Engineering.",
 				zoom: "",
 				links: [
 					{

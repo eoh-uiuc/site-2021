@@ -6,7 +6,7 @@ const saturdayData = [
 				startTime: "11:00 AM",
 				endTime: "12:00 PM CT",
 				name: "NCSA Presents: Seeing the Beginning of Time Documentary",
-				description: "TCo-produced by NCSA Advanced Visualization Lab and Thomas Lucas Productions, Seeing the Beginning of Time takes viewers on a visually-compelling journey through deep space and time. The 50-minute, 4K science documentary follows astronomers in one of the most far-reaching efforts ever undertaken to study the universe.",
+				description: "Co-produced by NCSA Advanced Visualization Lab and Thomas Lucas Productions, Seeing the Beginning of Time takes viewers on a visually-compelling journey through deep space and time. The 50-minute, 4K science documentary follows astronomers in one of the most far-reaching efforts ever undertaken to study the universe.",
 				zoom: "https://go.ncsa.illinois.edu/NCSAEOH2021",
 				links: [
 					{
@@ -53,10 +53,10 @@ const saturdayData = [
 		startTime: "3:00 PM",
 		events: [
 			{
-				startTime: "3:00 PM",
+				startTime: "3:30 PM",
 				endTime: "4:30 PM CT",
 				name: "Distinguished Alumni Panel",
-				description: "From finance to telecommunications, space exploration to academia, our distinguished alumni are leaders in industry, research, and development. They are dedicated and passionate innovators who have made significant contributions to society, industry, and the University of Illinois. Join us for a chat with the 2021 class of Alumni Award for Distinguished Service Recipients and hear about their Grainger Engineering experiences, lessons learned from their careers, and advice for current students.",
+				description: "Pre-registration Required - Zoom link will be sent via email after registration. From finance to telecommunications, space exploration to academia, our distinguished alumni are leaders in industry, research, and development. They are dedicated and passionate innovators who have made significant contributions to society, industry, and the University of Illinois. Join us for a chat with the 2021 class of Alumni Award for Distinguished Service Recipients and hear about their Grainger Engineering experiences, lessons learned from their careers, and advice for current students.",
 				zoom: "",
 				links: [
 					{
@@ -78,7 +78,7 @@ const saturdayData = [
 				startTime: "5:00 PM",
 				endTime: "6:00 PM CT",
 				name: "Life at Grainger Engineering: Prospective Students Panel with Engineering Ambassadors",
-				description: "Join us for a panel with the Engineering Ambassadors to explore life at UofI! This will be a great opportunity for prospective students to learn about academics and the resources available to them through the Grainger College of Engineering. Attendees will also be able to ask current students any questions they may have! Panelist majors: Materials Science Engineering, Industrial and Systems Engineering, Electrical and Computer Engineering, Computer Science",
+				description: "Join us for a panel with the Engineering Ambassadors to explore life at UofI! This will be a great opportunity for prospective students to learn about academics and the resources available to them through the Grainger College of Engineering. Attendees will also be able to ask current students any questions they may have! Panelist majors: Materials Science Engineering, Industrial and Systems Engineering, Electrical and Computer Engineering, Computer Science.",
 				zoom: "",
 				links:[
 					{
