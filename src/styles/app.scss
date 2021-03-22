@@ -4,3 +4,17 @@ html, body {
     padding: 0;
     overflow: auto;
 }
+
+.page-container {
+    height: 100%;
+    padding: 170px 200px;
+    @media (max-width: 1450px) {
+        padding: 170px 120px;
+    }
+    @media (max-width: 1085px) {
+        padding: 170px 50px;
+    }
+    @media (max-width: 500px) {
+        padding: 170px 20px;
+    }
+}
