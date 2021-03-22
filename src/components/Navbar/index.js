@@ -57,6 +57,7 @@ class Navbar extends Component {
 
                 <div className={`navbar-links ${this.state.menuOpen ? 'menu-links-open': 'menu-links-close'}`}>
                     <a className="navbar-text" onClick={this.hideMenu} target="_blank" rel="noopener noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSd76ndm0137Ud-vfG9h-8tTbobY-v0n_X_3VBaDkaVxXthm9g/viewform?usp=sf_link">Exhibitors</a>
+                    <Link className="navbar-text" onClick={this.hideMenu} to="/schedule">Schedule</Link>
                     <Link className="navbar-text" onClick={this.hideMenu} to="/visitors">Visitors</Link>
                     <Link className="navbar-text" onClick={this.hideMenu} to="/sponsors">Sponsor Us</Link>
                     <Link className="navbar-text" onClick={this.hideMenu} to="/about">About Us</Link>

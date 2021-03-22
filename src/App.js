@@ -8,6 +8,7 @@ import Sponsor from "./pages/Sponsor";
 import Error from "./pages/Error";
 import Visitors from "./pages/Visitors";
 import About from "./pages/About";
+import Schedule from "./pages/Schedule";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/sponsors" exact component={Sponsor} />
           <Route path="/visitors" exact component={Visitors} />
           <Route path="/about" exact component={About} />
+          <Route path="/schedule" exact component={Schedule} />
           <Route exact component={Error} />
         </Switch>
         <Footer />
