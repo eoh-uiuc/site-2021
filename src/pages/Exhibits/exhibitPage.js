@@ -21,6 +21,7 @@ const ExhibitPage = (props) => {
 
 	const setFilter = tag => e => {
 		console.log(location);
+		console.log(tag);
 		var newExhibits = [];
 		var exhib;
 		if(tag == "clear") setData(location.state.data);
@@ -48,12 +49,9 @@ const ExhibitPage = (props) => {
 					  <button class="dropbtn">Filter</button>
 					  <div class="dropdown-content">
 					  	<button onClick={setFilter("clear")}>Clear Filter</button>
-					    <button onClick={setFilter("mechanical")}>Mechanical</button>
-						<button onClick={setFilter("easy")}>Easy</button>
-						<button onClick={setFilter("quick")}>Quick</button>
-						<button onClick={setFilter("natural")}>Natural</button>
-						<button onClick={setFilter("long")}>Long</button>
-						<button onClick={setFilter("difficult")}>Difficult</button>
+					  	{data.tags.map(tag =>
+					  		<button onClick={setFilter(tag)}>{tag}</button>
+					  		)}
 					  </div>
 				</div> 
 			</div>
