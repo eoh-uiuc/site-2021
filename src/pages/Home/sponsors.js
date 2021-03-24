@@ -45,22 +45,22 @@ const Sponsors = () => (
       </Link>
       <a
         className="sponsors-logo"
-        href="https://www.synchrony.com"
+        href="https://www.exeloncorp.com/"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <img src={Exelon} alt="s" />
+        <img src={Exelon} alt="exelon-logo" />
       </a>
       <Link className="sponsors-logo" to="/exxon-mobil">
         <img src={Exxon} alt="exxon-logo" />
       </Link>
       <a
         className="sponsors-logo"
-        href="https://www.synchrony.com"
+        href="https://www.ford.com/"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <img src={Ford} alt="s" />
+        <img src={Ford} alt="ford-logo" />
       </a>
       <Link className="sponsors-logo" to="/john-deere">
         <img src={JohnDeere} alt="john-deere-logo" />
