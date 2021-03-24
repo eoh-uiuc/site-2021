@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import Ameren from "../../assets/sponsor-logos/ameren.jpeg";
 import Cat from "../../assets/sponsor-logos/cat.png";
@@ -44,14 +45,9 @@ const Sponsors = () => (
       >
         <img src={Chevron} alt="g" />
       </a>
-      <a
-        className="sponsors-logo"
-        href="https://www.synchrony.com"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <img src={Cummins} alt="s" />
-      </a>
+      <Link className="sponsors-logo" to="/cummins">
+        <img src={Cummins} alt="cummins-logo" />
+      </Link>
       <a
         className="sponsors-logo"
         href="https://www.synchrony.com"
@@ -60,14 +56,9 @@ const Sponsors = () => (
       >
         <img src={Exelon} alt="s" />
       </a>
-      <a
-        className="sponsors-logo"
-        href="https://www.synchrony.com"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <img src={Exxon} alt="s" />
-      </a>
+      <Link className="sponsors-logo" to="/exxon-mobil">
+        <img src={Exxon} alt="exxon-logo" />
+      </Link>
       <a
         className="sponsors-logo"
         href="https://www.synchrony.com"

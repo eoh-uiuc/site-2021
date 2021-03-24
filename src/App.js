@@ -8,6 +8,8 @@ import Error from "./pages/Error";
 import Visitors from "./pages/Visitors";
 import About from "./pages/About";
 import Schedule from "./pages/Schedule";
+import Cummins from "./pages/Sponsors/cummins";
+import Exxon from "./pages/Sponsors/exxon";
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
           <Route path="/visitors" exact component={Visitors} />
           <Route path="/about" exact component={About} />
           <Route path="/schedule" exact component={Schedule} />
+          <Route path="/cummins" exact component={Cummins} />
+          <Route path="/exxon-mobil" exact component={Exxon} />
           <Route exact component={Error} />
         </Switch>
         <Footer />

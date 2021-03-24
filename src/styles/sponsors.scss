@@ -1,0 +1,72 @@
+// Cummins -----------------------------------------------
+.cummins-fact-sheet-container {
+  display: flex;
+  justify-content: space-between;
+  & > img {
+    width: 48%;
+  }
+}
+
+@media (max-width: 1095px) {
+  .cummins-fact-sheet-container {
+    flex-direction: column;
+    & > img {
+      width: 100%;
+    }
+  }
+}
+
+.cummins-videos-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  .cummins-video {
+    height: 100%;
+    width: 500px;
+    margin: 60px 60px;
+
+    .cummins-video-embed {
+      height: 300px;
+    }
+  }
+
+  @media (max-width: 1500px) {
+    .cummins-video {
+      width: 400px;
+      margin: 40px 60px;
+
+      .cummins-video-embed {
+        height: 280px;
+      }
+    }
+  }
+
+  @media (max-width: 1310px) {
+    .cummins-video {
+      width: 350px;
+      margin: 30px 50px;
+    }
+  }
+
+  @media (max-width: 970px) {
+    .cummins-video {
+      width: 300px;
+      margin: 30px 30px;
+    }
+  }
+
+  @media (max-width: 835px) {
+    .cummins-video {
+      width: 100%;
+      margin: 30px 0px;
+    }
+  }
+}
+
+// Exxon -----------------------------------------------
+
+.exxon-view-more {
+  margin-bottom: 0px;
+}
