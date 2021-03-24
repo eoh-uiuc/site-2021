@@ -23,19 +23,19 @@ const Sponsors = () => (
     <div className="sponsors-list">
       <a
         className="sponsors-logo"
-        href="https://www.harting.com/"
+        href="https://www.ameren.com/"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <img src={Ameren} alt="a" />
+        <img src={Ameren} alt="ameren-logo" />
       </a>
       <a
         className="sponsors-logo"
-        href="https://www.sbbrg.com"
+        href="https://www.caterpillar.com/"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <img src={Cat} alt="ej" />
+        <img src={Cat} alt="cat-logo" />
       </a>
       <a
         className="sponsors-logo"
@@ -67,14 +67,9 @@ const Sponsors = () => (
       >
         <img src={Ford} alt="s" />
       </a>
-      <a
-        className="sponsors-logo"
-        href="https://www.synchrony.com"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <img src={JohnDeere} alt="s" />
-      </a>
+      <Link className="sponsors-logo" to="/john-deere">
+        <img src={JohnDeere} alt="john-deere-logo" />
+      </Link>
       <Link className="sponsors-logo" to="/pg">
         <img src={PG} alt="pg-logo" />
       </Link>

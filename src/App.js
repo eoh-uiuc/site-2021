@@ -12,6 +12,7 @@ import Cummins from "./pages/Sponsors/cummins";
 import Exxon from "./pages/Sponsors/exxon";
 import Synchrony from "./pages/Sponsors/synchrony";
 import PG from "./pages/Sponsors/pg";
+import JohnDeere from "./pages/Sponsors/johndeere";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path="/exxon-mobil" exact component={Exxon} />
           <Route path="/synchrony" exact component={Synchrony} />
           <Route path="/pg" exact component={PG} />
+          <Route path="/john-deere" exact component={JohnDeere} />
           <Route exact component={Error} />
         </Switch>
         <Footer />
