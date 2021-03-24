@@ -24,7 +24,6 @@ function App() {
           <Route path="/sponsors" exact component={Sponsor} />
           <Route path="/visitors" exact component={Visitors} />
           <Route path="/about" exact component={About} />
-          <Route path="/schedule" exact component={Schedule} />
           <Route exact component={Error} />
         </Switch>
         <Footer />
