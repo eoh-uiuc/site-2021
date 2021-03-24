@@ -134,3 +134,16 @@
     }
   }
 }
+
+// Chevron -----------------------------------------------
+
+.chevron-video-container {
+  width: 100%;
+  height: 600px;
+}
+
+@media (max-width: 800px) {
+  .chevron-video-container {
+    height: 400px;
+  }
+}

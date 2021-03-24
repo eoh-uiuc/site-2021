@@ -13,6 +13,8 @@ import Exxon from "./pages/Sponsors/exxon";
 import Synchrony from "./pages/Sponsors/synchrony";
 import PG from "./pages/Sponsors/pg";
 import JohnDeere from "./pages/Sponsors/johndeere";
+import RollsRoyce from "./pages/Sponsors/rollsroyce";
+import Chevron from "./pages/Sponsors/chevron";
 
 function App() {
   return (
@@ -29,6 +31,8 @@ function App() {
           <Route path="/synchrony" exact component={Synchrony} />
           <Route path="/pg" exact component={PG} />
           <Route path="/john-deere" exact component={JohnDeere} />
+          <Route path="/rolls-royce" exact component={RollsRoyce} />
+          <Route path="/chevron" exact component={Chevron} />
           <Route exact component={Error} />
         </Switch>
         <Footer />

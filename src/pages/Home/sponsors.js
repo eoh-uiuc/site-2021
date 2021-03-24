@@ -37,14 +37,9 @@ const Sponsors = () => (
       >
         <img src={Cat} alt="cat-logo" />
       </a>
-      <a
-        className="sponsors-logo"
-        href="https://www.goldmansachs.com"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <img src={Chevron} alt="g" />
-      </a>
+      <Link className="sponsors-logo" to="/chevron">
+        <img src={Chevron} alt="chevron-logo" />
+      </Link>
       <Link className="sponsors-logo" to="/cummins">
         <img src={Cummins} alt="cummins-logo" />
       </Link>
@@ -73,14 +68,9 @@ const Sponsors = () => (
       <Link className="sponsors-logo" to="/pg">
         <img src={PG} alt="pg-logo" />
       </Link>
-      <a
-        className="sponsors-logo"
-        href="https://www.synchrony.com"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <img src={RR} alt="s" />
-      </a>
+      <Link className="sponsors-logo" to="/rolls-royce">
+        <img src={RR} alt="rolls-royce-logo" />
+      </Link>
       <Link className="sponsors-logo" to="/synchrony">
         <img src={Synchrony} alt="synchrony-logo" />
       </Link>
