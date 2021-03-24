@@ -1,4 +1,5 @@
 // Cummins -----------------------------------------------
+
 .cummins-fact-sheet-container {
   display: flex;
   justify-content: space-between;
@@ -69,4 +70,67 @@
 
 .exxon-view-more {
   margin-bottom: 0px;
+}
+
+// P&G -----------------------------------------------
+
+.pg-header-image {
+  width: 50%;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 1045px) {
+  .pg-header-image {
+    width: 100%;
+  }
+}
+
+.pg-bios {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  .pg-bio-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    margin: 30px 30px;
+    text-align: center;
+
+    & > img {
+      border-radius: 50%;
+      height: 200px;
+      width: 200px;
+    }
+
+    .pg-bio-name {
+      font-size: 22px;
+      margin-top: 10px;
+      margin-bottom: 5px;
+    }
+
+    .pg-bio-major,
+    .pg-bio-role {
+      font-size: 14px;
+      margin: 0;
+      color: grey;
+    }
+
+    .pg-bio-testimonial {
+      font-size: 15px;
+    }
+  }
+
+  @media (max-width: 1600px) {
+    .pg-bio-container {
+      width: 300px;
+    }
+  }
+
+  @media (max-width: 805px) {
+    .pg-bio-container {
+      width: 100%;
+    }
+  }
 }

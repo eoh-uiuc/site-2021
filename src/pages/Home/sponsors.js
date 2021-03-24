@@ -75,14 +75,9 @@ const Sponsors = () => (
       >
         <img src={JohnDeere} alt="s" />
       </a>
-      <a
-        className="sponsors-logo"
-        href="https://www.synchrony.com"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <img src={PG} alt="s" />
-      </a>
+      <Link className="sponsors-logo" to="/pg">
+        <img src={PG} alt="pg-logo" />
+      </Link>
       <a
         className="sponsors-logo"
         href="https://www.synchrony.com"

@@ -11,6 +11,7 @@ import Schedule from "./pages/Schedule";
 import Cummins from "./pages/Sponsors/cummins";
 import Exxon from "./pages/Sponsors/exxon";
 import Synchrony from "./pages/Sponsors/synchrony";
+import PG from "./pages/Sponsors/pg";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="/cummins" exact component={Cummins} />
           <Route path="/exxon-mobil" exact component={Exxon} />
           <Route path="/synchrony" exact component={Synchrony} />
+          <Route path="/pg" exact component={PG} />
           <Route exact component={Error} />
         </Switch>
         <Footer />
