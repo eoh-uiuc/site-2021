@@ -1,10 +1,9 @@
-import React from 'react';
+import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
-import Sponsor from "./pages/Sponsor";
 import Error from "./pages/Error";
 import Visitors from "./pages/Visitors";
 import About from "./pages/About";
@@ -21,7 +20,6 @@ function App() {
           <Route path="/" exact component={Home} />
           <Route path="/exhibits" exact component={Exhibits} />
           <Route path="/exhibits/:handle" component={ExhibitPage} />
-          <Route path="/sponsors" exact component={Sponsor} />
           <Route path="/visitors" exact component={Visitors} />
           <Route path="/about" exact component={About} />
           <Route path="/schedule" exact component={Schedule} />
