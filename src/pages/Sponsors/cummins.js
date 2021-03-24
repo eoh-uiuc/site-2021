@@ -7,18 +7,31 @@ import CumminsFactSheetTwo from "../../assets/sponsor-files/cummins/cummins-fact
 const Cummins = () => (
   <div className="page-container">
     <h1>Cummins</h1>
-    <p>
-      Join us for an{" "}
-      <a
-        href="http://smarttourmedia.com/embed/CumminsJEP/?utm_campaign=dbu-cssna-powerclub&utm_term=Thank%20You%20for%20Attending%20the%20Cummins%20Heavy%20Duty%20Executive%20Summit%21&utm_content=DBU_NA_OnHwy_HDSummit_Event%20Video%20Link&utm_medium=email&utm_source=Eloqua"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        interactive 3D tour
-      </a>{" "}
-      of our Jamestown Engine Plant where we produce our 11L, 12L, and 15L
-      Diesel and Natural Gas engines.
-    </p>
+    <ul>
+      <li>
+        <p>
+          Mark your calendars for Cummins' Tech Center Tour and Q&A on Friday,
+          March 26th from 1-3 PM! The tour and Q&A session will be 20 minutes
+          and occur every half hour, so don't miss the chance to hear from a
+          global power leader! Visit the <i>Schedule</i> tab for more
+          information.
+        </p>
+      </li>
+      <li>
+        <p>
+          Join us for an{" "}
+          <a
+            href="http://smarttourmedia.com/embed/CumminsJEP/?utm_campaign=dbu-cssna-powerclub&utm_term=Thank%20You%20for%20Attending%20the%20Cummins%20Heavy%20Duty%20Executive%20Summit%21&utm_content=DBU_NA_OnHwy_HDSummit_Event%20Video%20Link&utm_medium=email&utm_source=Eloqua"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            interactive 3D tour
+          </a>{" "}
+          of our Jamestown Engine Plant where we produce our 11L, 12L, and 15L
+          Diesel and Natural Gas engines.
+        </p>
+      </li>
+    </ul>
     <br />
     <br />
     <div className="cummins-fact-sheet-container">

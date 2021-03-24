@@ -7,7 +7,6 @@ import Chevron from "../../assets/sponsor-logos/chevron.jpg";
 import Cummins from "../../assets/sponsor-logos/cummins.jpg";
 import Exelon from "../../assets/sponsor-logos/exelon.png";
 import Exxon from "../../assets/sponsor-logos/exxon.png";
-import Ford from "../../assets/sponsor-logos/ford.png";
 import JohnDeere from "../../assets/sponsor-logos/john-deere.png";
 import PG from "../../assets/sponsor-logos/pg.png";
 import RR from "../../assets/sponsor-logos/rolls-royce.jpg";
@@ -21,14 +20,9 @@ const Sponsors = () => (
       companies. Click on a logo to view more information about our sponsors!
     </p>
     <div className="sponsors-list">
-      <a
-        className="sponsors-logo"
-        href="https://www.ameren.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
+      <Link className="sponsors-logo" to="/ameren">
         <img src={Ameren} alt="ameren-logo" />
-      </a>
+      </Link>
       <a
         className="sponsors-logo"
         href="https://www.caterpillar.com/"
@@ -54,14 +48,6 @@ const Sponsors = () => (
       <Link className="sponsors-logo" to="/exxon-mobil">
         <img src={Exxon} alt="exxon-logo" />
       </Link>
-      <a
-        className="sponsors-logo"
-        href="https://www.ford.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <img src={Ford} alt="ford-logo" />
-      </a>
       <Link className="sponsors-logo" to="/john-deere">
         <img src={JohnDeere} alt="john-deere-logo" />
       </Link>

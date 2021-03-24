@@ -15,6 +15,7 @@ import PG from "./pages/Sponsors/pg";
 import JohnDeere from "./pages/Sponsors/johndeere";
 import RollsRoyce from "./pages/Sponsors/rollsroyce";
 import Chevron from "./pages/Sponsors/chevron";
+import Ameren from "./pages/Sponsors/ameren";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
           <Route path="/john-deere" exact component={JohnDeere} />
           <Route path="/rolls-royce" exact component={RollsRoyce} />
           <Route path="/chevron" exact component={Chevron} />
+          <Route path="/ameren" exact component={Ameren} />
           <Route exact component={Error} />
         </Switch>
         <Footer />

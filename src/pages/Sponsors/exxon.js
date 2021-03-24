@@ -66,6 +66,15 @@ const Exxon = () => (
           Permian Pipeline
         </a>
       </li>
+      <li>
+        <a
+          href="https://www.youtube.com/playlist?list=PLzI8856_ZMhdOm6kMb_EiE9hJNtMLsaJF"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          2021 ExxonMobil Videos
+        </a>
+      </li>
     </ul>
   </div>
 );
