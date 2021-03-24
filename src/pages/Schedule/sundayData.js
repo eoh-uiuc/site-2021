@@ -84,6 +84,10 @@ const sundayData = [
 				description: "The Startup Showcase and Pitch Competition will provide student-run startups with a platform to pitch their startup with a chance to win cash prizes worth $600. Following the pitch competition we will be having an hour long showcase which will give all startups the opportunity to speak with the audience, network and showcase their startups to everyone!",
 				zoom: "",
 				links: [
+					{
+						name: "Join Zoom",
+						link: "https://illinois.zoom.us/j/81683148845?pwd=NGUxbXp6bHMxdEdBVFZVcDVtWnRlUT09"
+					}
 				]				
 			}
 		]
