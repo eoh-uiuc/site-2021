@@ -135,28 +135,15 @@
   }
 }
 
-// Chevron -----------------------------------------------
+// Chevron, John Deere, Synchrony, Rolls Royce video container -----------------------------------------------
 
-.chevron-video-container {
+.sponsor-video-container {
   width: 100%;
   height: 600px;
 }
 
 @media (max-width: 800px) {
-  .chevron-video-container {
-    height: 400px;
-  }
-}
-
-// John Deere -----------------------------------------------
-
-.john-deere-video-container {
-  width: 100%;
-  height: 600px;
-}
-
-@media (max-width: 800px) {
-  .john-deere-video-container {
+  .sponsor-video-container {
     height: 400px;
   }
 }

@@ -24,7 +24,7 @@ const Chevron = () => (
       .
     </p>
     <br />
-    <div className="chevron-video-container">
+    <div className="sponsor-video-container">
       <ReactPlayer
         width="100%"
         height="100%"
