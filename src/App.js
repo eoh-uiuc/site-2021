@@ -10,6 +10,7 @@ import About from "./pages/About";
 import Schedule from "./pages/Schedule";
 import Cummins from "./pages/Sponsors/cummins";
 import Exxon from "./pages/Sponsors/exxon";
+import Synchrony from "./pages/Sponsors/synchrony";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/schedule" exact component={Schedule} />
           <Route path="/cummins" exact component={Cummins} />
           <Route path="/exxon-mobil" exact component={Exxon} />
+          <Route path="/synchrony" exact component={Synchrony} />
           <Route exact component={Error} />
         </Switch>
         <Footer />

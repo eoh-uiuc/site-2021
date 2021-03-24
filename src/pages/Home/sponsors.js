@@ -91,14 +91,9 @@ const Sponsors = () => (
       >
         <img src={RR} alt="s" />
       </a>
-      <a
-        className="sponsors-logo"
-        href="https://www.synchrony.com"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <img src={Synchrony} alt="s" />
-      </a>
+      <Link className="sponsors-logo" to="/synchrony">
+        <img src={Synchrony} alt="synchrony-logo" />
+      </Link>
     </div>
   </div>
 );
