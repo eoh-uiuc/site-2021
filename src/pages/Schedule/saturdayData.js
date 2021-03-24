@@ -64,9 +64,10 @@ const saturdayData = [
       {
         startTime: "3:30 PM",
         endTime: "4:30 PM CT",
-        name: "Distinguished Alumni Panel",
+        name:
+          "Virtual Chat with Alumni Award for Distinguished Service Recipients",
         description:
-          "Pre-registration Required - Zoom link will be sent via email after registration. From finance to telecommunications, space exploration to academia, our distinguished alumni are leaders in industry, research, and development. They are dedicated and passionate innovators who have made significant contributions to society, industry, and the University of Illinois. Join us for a chat with the 2021 class of Alumni Award for Distinguished Service Recipients and hear about their Grainger Engineering experiences, lessons learned from their careers, and advice for current students.",
+          "Pre-registration Required - Zoom link will be sent via email after registration. From finance to telecommunications, space exploration to civil engineering, our distinguished alumni are leaders in industry, research, and entrepreneurship. They are dedicated and passionate innovators who have made significant contributions to society, industry, and the University of Illinois. Join us for a chat with the 2021 class of Alumni Award for Distinguished Service Recipients and hear about their Grainger Engineering experiences, lessons learned from their careers, and advice for current students.",
         zoom: "",
         links: [
           {
