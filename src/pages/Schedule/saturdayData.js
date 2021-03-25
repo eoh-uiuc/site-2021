@@ -106,7 +106,7 @@ const saturdayData = [
     events: [
       {
         startTime: "4:00 PM",
-        endTime: "6:00 PM",
+        endTime: "6:00 PM CT",
         name: "Startup Showcase and Pitch Competition",
         description:
           "The Startup Showcase and Pitch Competition will provide student-run startups with a platform to pitch their startup with a chance to win cash prizes worth $600. Following the pitch competition we will be having an hour long showcase which will give all startups the opportunity to speak with the audience, network and showcase their startups to everyone!",

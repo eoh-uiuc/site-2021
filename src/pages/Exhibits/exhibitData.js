@@ -6,7 +6,13 @@ const exhibitData = [
     longitude: -88.224408,
     description:
       "In Spring 2019, construction began on a three-story addition to the south face of Talbot Laboratory. The expansion enhances the educational experience of NPRE students by giving them access to state-of-the-art laboratories for radiation measurements and nuclear materials.",
-    tags: ["Kid-Friendly", "Molecular Scale", "Physics", "Environment", "Sustainable"],
+    tags: [
+      "Kid-Friendly",
+      "Molecular Scale",
+      "Physics",
+      "Environment",
+      "Sustainable",
+    ],
     exhibits: [
       {
         name: "Women in Nuclear",
