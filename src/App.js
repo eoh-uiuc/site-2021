@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import ScrollToTop from "./utils/ScrollToTop";
 
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -22,6 +23,7 @@ function App() {
     <Router>
       <div className="App">
         <Navbar />
+        <ScrollToTop />
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/visitors" exact component={Visitors} />
