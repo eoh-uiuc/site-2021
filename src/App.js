@@ -10,7 +10,6 @@ import Visitors from "./pages/Visitors";
 import About from "./pages/About";
 import Exhibits from "./pages/Exhibits";
 import ExhibitPage from "./pages/Exhibits/exhibitPage.js";
-import Schedule from "./pages/Schedule";
 
 function App() {
   return (
@@ -24,7 +23,6 @@ function App() {
           <Route path="/sponsors" exact component={Sponsor} />
           <Route path="/visitors" exact component={Visitors} />
           <Route path="/about" exact component={About} />
-          <Route path="/schedule" exact component={Schedule} />
           <Route exact component={Error} />
         </Switch>
         <Footer />
