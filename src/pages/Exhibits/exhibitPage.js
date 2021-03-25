@@ -23,10 +23,10 @@ const ExhibitPage = (props) => {
 		<div className="page-container exhibit-page-wrapper">
 			<h2>{data.name}</h2>
 			<div className="exhibit-page-about">
-				<p>{data.description}</p>
+				<p dangerouslySetInnerHTML={{__html: data.description}} />
 			</div>
 			<div className="exhibit-videos">
-				{data.exhibits.map(exhibit => <ExhibitCard data={exhibit} />)}
+				{data.exhibits?.map(exhibit => <ExhibitCard data={exhibit} />)}
 			</div>
 		</div>
 	);

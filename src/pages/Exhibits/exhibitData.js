@@ -291,6 +291,17 @@ const exhibitData = [
 			},
 		],
 	},
+	{
+		name: "Art with Processing!",
+		link: "/exhibits/art-processing",
+		description: "<div>What do these images have <span style=\"color: red; font-weight: bold;\">in common</span>? <br /><br /><center><img style=\"width: 100px; height: 100px;\" src=\"https://d16kd6gzalkogb.cloudfront.net/magazine_images/Computer-generated-art-2.jpg\" /> <img style=\"width: 100px; height: 100px;\" src=\"https://d16kd6gzalkogb.cloudfront.net/magazine_images/Computer-generated-art-2.jpg\" /> <img style=\"width: 100px; height: 100px;\" src=\"https://d16kd6gzalkogb.cloudfront.net/magazine_images/Computer-generated-art-2.jpg\" /> <img style=\"width: 100px; height: 100px;\" src=\"https://d16kd6gzalkogb.cloudfront.net/magazine_images/Computer-generated-art-2.jpg\" /></center></div>\n" +
+			"<p>The answer is that the way made <span style=\"color: blue; font-weight: bold;\">by a computer</span>! In this exhibit, we're going to show you how you can make art like this with a simple coding language called \"Processing\". </p>\n" +
+			"\n" +
+			"<code>\n" +
+			"<br/> for i in range(10):\n" +
+			"<br />&emsp;&emsp;&emsp;&emsp;a\n" +
+			"    </code>"
+	}
 ];
   
 export default exhibitData;

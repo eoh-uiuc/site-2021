@@ -11,7 +11,7 @@ const Schedule = () => {
 			<p>What are on-demand exhibits. Instructions how to access on-demand exhibit videos in the exhibits tab.</p>
 			<br />
 
-			<h2>Saturday, March 26</h2>
+			<h2>Saturday, March 13</h2>
 			{saturdayData.map(d =>
 				<div>
 					<div className="schedule-divider">
@@ -23,7 +23,7 @@ const Schedule = () => {
 			)}
 			<br />
 
-			<h2>Sunday, March 27</h2>
+			<h2>Sunday, March 14</h2>
 			{sundayData.map(d =>
 				<div>
 					<div className="schedule-divider">

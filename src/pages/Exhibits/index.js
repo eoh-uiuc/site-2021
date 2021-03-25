@@ -59,7 +59,7 @@ const Exhibits = () => {
 					maxZoom={17}
 					minZoom={15}
 				>
-					<Pins data={exhibitData} handlePinClick={handlePinClick} />
+					<Pins data={exhibitData.filter(({ latitude }) => latitude)} handlePinClick={handlePinClick} />
 					{renderPopup()}
 				</ReactMapGL>
 			</div>
