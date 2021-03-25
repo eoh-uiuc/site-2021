@@ -29,17 +29,17 @@ import Amritha from "../../assets/headshots/Amritha.jpg";
 const committee = [
   {
     name: 'Emily Roth',
-    position: 'Director',
+    position: 'Co-Director',
     headshot: Emily,
   },
   {
     name: 'Kavya Sudhir',
-    position: 'Director of Exhibits',
+    position: 'Co-Director',
     headshot: Kavya,
   },
   {
     name: 'Alara Sunar',
-    position: 'Facilities & Equipment',
+    position: 'Co-Director',
     headshot: Alara,
   },
   {
@@ -79,7 +79,7 @@ const committee = [
   },
   {
     name: 'Karen Yang',
-    position: 'Traffic & Safety',
+    position: 'Director of Virtual Logistics',
     headshot: Karen,
   },
   {

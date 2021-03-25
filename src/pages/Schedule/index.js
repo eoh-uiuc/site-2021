@@ -57,7 +57,7 @@ const Schedule = () => {
         </div>
       ))}
       <div className="schedule-section-separator" />
-
+      
       <h2>Saturday, March 27</h2>
       {sundayData.map((d) => (
         <div>
