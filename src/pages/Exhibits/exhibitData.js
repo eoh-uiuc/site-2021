@@ -58,7 +58,8 @@ const exhibitData = [
         video: "https://youtu.be/pAbJItHPxgw",
         description:
           "Based off of Theo Jansen's Strandbeest, this wooden creature contains three sets of legs designed to 'walk' along a path. Using metal components, wooden fiberboard, and 3D printed parts, watch the Strandbeest come to life!",
-        tags: ["Kid-Friendly", "Mechanics", "Good for older students"]
+        tags: ["Kid-Friendly", "Mechanics", "Good for older students"],
+        links: []
       }
     ]
   },
@@ -312,7 +313,8 @@ const exhibitData = [
         video: "https://youtu.be/aygeeq4LNTc",
         description: 
           "We are the Concrete Canoe team and each year we design, build and RACE a canoe made of CONCRETE.  Watch our video to learn more about how we do the impossible and make concrete that floats!",
-        tags: ["Boats", "Water", "Construction"]
+        tags: ["Boats", "Water", "Construction"],
+        links: []
       },
       {
         name: "DIY Fluid Mechanics - 101",
@@ -320,7 +322,8 @@ const exhibitData = [
         video: "https://youtu.be/I94-7hQTgGM",
         description:
           "The exhibit presents two simple and fascinating concepts of fluid mechanics through easy demonstrations. These demonstrations can later be performed at home as well, hence the name DIY Fluid Mechanics.",
-        tags: ["Mechanics", "Kid-Friendly", " Water"]
+        tags: ["Mechanics", "Kid-Friendly", " Water"],
+        links: []
       }
     ]
   },
@@ -420,9 +423,6 @@ const exhibitData = [
       "temp",
     tags: [],
     exhibits: [
-      {
-        
-      }
     ]
   },
   {
