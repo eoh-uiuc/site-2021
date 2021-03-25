@@ -5,6 +5,7 @@ import exhibitData from "./exhibitData.js";
 const ExhibitPage = (props) => {
   const location = props.location;
   const [data, setData] = useState(null);
+  const [selectedTags, setSelectedTags] = useState([]);
 
   useEffect(() => {
     if (!data) {
@@ -24,8 +25,10 @@ const ExhibitPage = (props) => {
     console.log(tag);
     var newExhibits = [];
     var exhib;
-    if (tag === "clear") setData(location.state.data);
-    else {
+    if (tag === "clear") {
+      setSelectedTags([]);
+      setData(location.state.data);
+    } else {
       for (exhib of location.state.data.exhibits) {
         if (exhib.tags.includes(tag)) {
           newExhibits.push(exhib);
@@ -34,6 +37,10 @@ const ExhibitPage = (props) => {
       var newData = Object.assign({}, data, { exhibits: newExhibits });
       console.log(newExhibits);
       setData(newData);
+
+      if (selectedTags.indexOf(tag) === -1) {
+        setSelectedTags([...selectedTags, tag]);
+      }
     }
   };
 
@@ -44,15 +51,21 @@ const ExhibitPage = (props) => {
         <div>
           <p>{data.description}</p>
         </div>
+        <div className="exhibit-divider"></div>
         <div>
           <div class="dropdown">
-            <button class="dropbtn">Filter</button>
+            <button class="dropbtn">Filter By Tag</button>
             <div class="dropdown-content">
               <button onClick={setFilter("clear")}>Clear Filter</button>
               {data.tags.map((tag) => (
                 <button onClick={setFilter(tag)}>{tag}</button>
               ))}
             </div>
+          </div>
+          <div className="selected-tags-container">
+            {selectedTags.map((t) => (
+              <div className="filter-tag">{t}</div>
+            ))}
           </div>
         </div>
         <div className="exhibit-videos">
