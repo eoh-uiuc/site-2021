@@ -1,8 +1,8 @@
 import React from "react";
 import ScheduleCard from "../../components/ScheduleCard";
 
+import fridayData from "./fridayData.js";
 import saturdayData from "./saturdayData.js";
-import sundayData from "./sundayData.js";
 
 const Schedule = () => {
   return (
@@ -45,7 +45,7 @@ const Schedule = () => {
       <div className="schedule-section-separator" />
 
       <h2>Friday, March 26</h2>
-      {saturdayData.map((d) => (
+      {fridayData.map((d) => (
         <div>
           <div className="schedule-divider">
             <p>{d.startTime}</p>
@@ -59,7 +59,7 @@ const Schedule = () => {
       <div className="schedule-section-separator" />
 
       <h2>Saturday, March 27</h2>
-      {sundayData.map((d) => (
+      {saturdayData.map((d) => (
         <div>
           <div className="schedule-divider">
             <p>{d.startTime}</p>

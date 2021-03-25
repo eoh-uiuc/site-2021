@@ -8,11 +8,24 @@ const saturdayData = [
         name: "NCSA Presents: Seeing the Beginning of Time Documentary",
         description:
           "Co-produced by NCSA Advanced Visualization Lab and Thomas Lucas Productions, Seeing the Beginning of Time takes viewers on a visually-compelling journey through deep space and time. The 50-minute, 4K science documentary follows astronomers in one of the most far-reaching efforts ever undertaken to study the universe.",
-        zoom: "https://go.ncsa.illinois.edu/NCSAEOH2021",
         links: [
           {
             name: "Join Zoom",
-            link: " https://go.ncsa.illinois.edu/NCSAEOH2021",
+            link: "https://go.ncsa.illinois.edu/NCSAEOH2021",
+          },
+        ],
+      },
+      {
+        startTime: "11:30 AM",
+        endTime: "12:00 PM CT",
+        name: "WYSE Introduction",
+        description:
+          "Register to hear more about the WYSE (Worldwide Young Science and Engineering Program) group here on campus! They bring together pre-college students with college students to prepare middle and high school students for a successful career in engineering. Stay on immediately after this for a tour of the engineering campus given by our E-STAR tour guides! Zoom link information will be sent out after registration.",
+        links: [
+          {
+            name: "Pre-registration",
+            link:
+              "https://enroll.illinois.edu/register/?id=242664f0-f847-43ed-b1f9-9c11676c5f52",
           },
         ],
       },
@@ -24,15 +37,19 @@ const saturdayData = [
       {
         startTime: "12:00 PM",
         endTime: "1:00 PM CT",
-        name: "Keynote Address with Reshma Saujani",
+        name: "ESTAR Campus Tour",
         description:
-          "Pre-registration Required - Zoom link will be sent via email after registration. Reshma Saujani is the Founder and CEO of Girls Who Code, the international nonprofit organization working to close the gender gap in technology and change the image of what a computer programmer looks like and does. The organization has reached 500 million people and 300,000 girls in all 50 U.S. states, Canada, India, and the United Kingdom. She is the author of the international bestseller Brave, Not Perfect and the New York Times bestseller Girls Who Code: Learn to Code and Change the World. Reshma’s TED talk, “Teach girls, bravery not perfection,” has more than five million views and has sparked a worldwide conversation about how we’re raising our girls. In 2010, Reshma surged onto the political scene as the first Indian American woman to run for U.S. Congress. Reshma lives in New York City with her husband, Nihal, their sons, Shaan and Sai, and their bulldog, Stanley.",
-        zoom: "",
+          "Pre-registration required. This is one event you don’t want to miss! Join the on-campus engineering tour guides for a virtual tour of our campus on March 27th, from noon to 1:00 PM! Learn about what it’s like to be a Grainger College of Engineering student and get all your questions answered by engineering students from across the college. The tour will take you around the engineering campus and into some engineering buildings!",
         links: [
+          {
+            name: "Join Zoom",
+            link:
+              "https://illinois.zoom.us/j/88430474061?pwd=SjZ1K2NoWGQ2L2NlS25OcVZ2KzdYdz09",
+          },
           {
             name: "Pre-registration",
             link:
-              "https://illinois.zoom.us/webinar/register/WN_ZJt5zyRqSai-ZWvsHnsbFw",
+              "https://enroll.illinois.edu/register/?id=242664f0-f847-43ed-b1f9-9c11676c5f52",
           },
         ],
       },
@@ -43,68 +60,61 @@ const saturdayData = [
     events: [
       {
         startTime: "1:00 PM",
-        endTime: "3:00 PM CT",
-        name: "Cummins Tech Center Tour and Q&A",
-        description:
-          "Mark your calendars for Cummins' Tech Center Tour and Q&A on Friday March 26th from 1-3 pm! Join us for a virtual tour of the Cummins Tech Center in Indiana and learn about their history of innovation and engineering. The tour and Q&A session will be 20 minutes and occur every half hour, so don't miss the chance to hear from a global power leader!",
-        zoom: "",
-        links: [
-          {
-            name: "Join Zoom",
-            link:
-              "https://cummins.zoom.us/j/93195003885?pwd=U3pjUHdGN2Y3UnYybGlCQ0pOMUhNUT09",
-          },
-        ],
-      },
-    ],
-  },
-  {
-    startTime: "3:00 PM",
-    events: [
-      {
-        startTime: "3:30 PM",
-        endTime: "4:30 PM CT",
-        name:
-          "Virtual Chat with Alumni Award for Distinguished Service Recipients",
-        description:
-          "Pre-registration Required - Zoom link will be sent via email after registration. From finance to telecommunications, space exploration to civil engineering, our distinguished alumni are leaders in industry, research, and entrepreneurship. They are dedicated and passionate innovators who have made significant contributions to society, industry, and the University of Illinois. Join us for a chat with the 2021 class of Alumni Award for Distinguished Service Recipients and hear about their Grainger Engineering experiences, lessons learned from their careers, and advice for current students.",
-        zoom: "",
-        links: [
-          {
-            name: "Pre-registration",
-            link:
-              "https://illinois.zoom.us/webinar/register/WN_gM4b3hFXRgiRu54A0sV84g",
-          },
-          {
-            name: "More information",
-            link:
-              "https://grainger.illinois.edu/news/webinars/distinguished-alumni-chat",
-          },
-        ],
-      },
-    ],
-  },
-  {
-    startTime: "5:00 PM",
-    events: [
-      {
-        startTime: "5:00 PM",
-        endTime: "6:00 PM CT",
+        endTime: "2:00 PM CT",
         name:
           "Life at Grainger Engineering: Prospective Students Panel with Engineering Ambassadors",
         description:
-          "Join us for a panel with the Engineering Ambassadors to explore life at UofI! This will be a great opportunity for prospective students to learn about academics and the resources available to them through the Grainger College of Engineering. Attendees will also be able to ask current students any questions they may have! Panelist majors: Materials Science Engineering, Industrial and Systems Engineering, Electrical and Computer Engineering, Computer Science.",
-        zoom: "",
+          "Join us for a panel with the Engineering Ambassadors to explore life at UofI! This will be a great opportunity for prospective students to learn about academics and the resources available to them through the Grainger College of Engineering. Attendees will also be able to ask current students any questions they may have! Panelist Majors: BioEngineering, Civil and Environmental Engineering, Materials Science Engineering, Chemical Engineering.",
         links: [
           {
             name: "Join Zoom",
             link:
-              "https://illinois.zoom.us/j/84096407058?pwd=SVRRYVZ3ekc5cmFYYkJrTkhiQzJsZz09",
+              "https://illinois.zoom.us/j/87531728938?pwd=ZTFRWE5YQnltQWZ3b2dRcVZPOVg4Zz09",
           },
           {
             name: "Registration",
             link:
-              "https://enroll.illinois.edu/register/?id=1a1fefe4-ad38-4b9f-99d5-27acdf6e657c",
+              "https://enroll.illinois.edu/register/?id=8538869a-5ee3-43d5-a752-92e5ee268936",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    startTime: "2:30 PM",
+    events: [
+      {
+        startTime: "2:30 PM",
+        endTime: "3:30 PM CT",
+        name: "Theta Drau - Live Exhibit",
+        description:
+          "A robot that uses stepper motors and a custom program to draw, write text, and create pictures on an Etch a Sketch.",
+        links: [],
+      },
+      {
+        startTime: "2:30 PM",
+        endTime: "3:30 PM CT",
+        name: "Virtually Controlled Soft-Robotics Hand - Live Exhibit",
+        description:
+          "Utilizing computer vision to control a pneumatically controlled soft-robotic hand in Champaign, IL.",
+        links: [],
+      },
+    ],
+  },
+  {
+    startTime: "4:00 PM",
+    events: [
+      {
+        startTime: "4:00 PM",
+        endTime: "6:00 PM",
+        name: "Startup Showcase and Pitch Competition",
+        description:
+          "The Startup Showcase and Pitch Competition will provide student-run startups with a platform to pitch their startup with a chance to win cash prizes worth $600. Following the pitch competition we will be having an hour long showcase which will give all startups the opportunity to speak with the audience, network and showcase their startups to everyone!",
+        links: [
+          {
+            name: "Join Zoom",
+            link:
+              "https://illinois.zoom.us/j/81683148845?pwd=NGUxbXp6bHMxdEdBVFZVcDVtWnRlUT09",
           },
         ],
       },
