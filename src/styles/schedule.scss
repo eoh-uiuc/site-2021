@@ -1,0 +1,40 @@
+.schedule-wrapper {
+  .schedule-divider {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    white-space: pre;
+    .schedule-divider-line {
+      background-color: grey;
+      height: 1px;
+      width: 100%;
+      margin-left: 15px;
+    }
+  }
+
+  .schedule-card-wrapper {
+    padding: 40px 60px;
+
+    .schedule-card-time {
+      margin: 0;
+    }
+
+    .schedule-card-name {
+      margin: 6px 0;
+      font-weight: bold;
+    }
+
+    .schedule-card-description {
+      margin-top: 0;
+      font-size: 15px;
+    }
+  }
+
+  .schedule-card-link {
+    margin-right: 6px;
+  }
+
+  .schedule-section-separator {
+    height: 30px;
+  }
+}
