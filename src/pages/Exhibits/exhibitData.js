@@ -2,10 +2,24 @@ const exhibitData = [
   {
     name: "Mechanical Science and Engineering",
     link: "/exhibits/mechanical-science-and-engineering",
-    latitude: 40.111855, 
+    latitude: 40.111855,
     longitude: -88.226143,
-    description: "The Department of Mechanical Science and Engineering offers top-ranked degree programs in engineering mechanics, mechanical engineering, and theoretical and applied mechanics. Our curricula offer students unparalleled strengths in key fundamental areas, such as fluid and solid mechanics, thermodynamics and heat transfer, dynamics and controls, biomechanical sciences, computational science, applied math, applied physics, and chemistry.",
-    tags: ["Good for older students", "Mechanics", "Physics", "Construction", "Kid-Friendly", "Water", "Research", "Design Team", "Art and Design", "Robotics", "Electronics", "Sustainable"],
+    description:
+      "The Department of Mechanical Science and Engineering offers top-ranked degree programs in engineering mechanics, mechanical engineering, and theoretical and applied mechanics. Our curricula offer students unparalleled strengths in key fundamental areas, such as fluid and solid mechanics, thermodynamics and heat transfer, dynamics and controls, biomechanical sciences, computational science, applied math, applied physics, and chemistry.",
+    tags: [
+      "Good for older students",
+      "Mechanics",
+      "Physics",
+      "Construction",
+      "Kid-Friendly",
+      "Water",
+      "Research",
+      "Design Team",
+      "Art and Design",
+      "Robotics",
+      "Electronics",
+      "Sustainable",
+    ],
     exhibits: [
       {
         name: "Off-Road Illini Baja SAE",
@@ -14,7 +28,7 @@ const exhibitData = [
         description:
           "In this video we talk about what goes into building a vehicle for the Baja SAE competition, and finish off by showing the car in action! Email the team lead Jack 0'Donnel, jack0@illinois.edu if you have any questions!",
         tags: [],
-        links: []
+        links: [],
       },
       {
         name: "Tensegrity Table",
@@ -23,7 +37,7 @@ const exhibitData = [
         description:
           "A 4ftx4ft wooden table supported entirely by steel wires, demonstrating the power of tension forces. Email the team lead Max Marsh, mmarsh31@illinois.edu if you have any questions!",
         tags: ["Mechanics", "Physics", "Construction"],
-        links: []
+        links: [],
       },
       {
         name: "Bike Pump Powered Cannon",
@@ -32,7 +46,7 @@ const exhibitData = [
         description:
           "A PVC tennis ball cannon that is powered by a bike pump. Pressure is pumped into the cannon to launch projectiles at wooden targets, which are placed at varying distances. Email the team lead Leotis Davenport, leotisd2@illinois.edu if you have any questions!",
         tags: ["Physics", "Kid-Friendly", "Mechanics"],
-        links: []
+        links: [],
       },
       {
         name: "Levitating Water",
@@ -41,7 +55,7 @@ const exhibitData = [
         description:
           "The levitating water project demonstrates an optical illusion that utilizes the stroboscopic effect. LED strobe lights are positioned along a vertical stream of water and the frequency of the strobe lights are synced up with the frequency of the water droplets, which creates the illusion of floating water droplets when, in reality, the drops are falling naturally. Email the team lead Noboru Myers, noborum2@illinois.edu if you have any questions!",
         tags: ["Kid-Friendly", "Water", "Physics"],
-        links: []
+        links: [],
       },
       {
         name: "DIY Experiments with Magnets",
@@ -50,7 +64,7 @@ const exhibitData = [
         description:
           "This exhibit demonstrates the power of magnets through DIY projects that can be done at home with household items. The three projects featured all showcase a different application of magnets found in everyday life. Email the team lead Avi Distler, avrammd2@illinois.edu if you have any questions!",
         tags: ["Kid-Friendly", "Physics", "Mechanics"],
-        links: []
+        links: [],
       },
       {
         name: "Standbeest",
@@ -59,7 +73,7 @@ const exhibitData = [
         description:
           "Based off of Theo Jansen's Strandbeest, this wooden creature contains three sets of legs designed to 'walk' along a path. Using metal components, wooden fiberboard, and 3D printed parts, watch the Strandbeest come to life! Email the team lead John Venetos, jkv2@illinois.edu if you have any questions!",
         tags: ["Kid-Friendly", "Mechanics", "Good for older students"],
-        links: []
+        links: [],
       },
       {
         name: "Demonstration of Ultrasonic Non-Destructive Evaluation",
@@ -67,8 +81,8 @@ const exhibitData = [
         video: "https://youtu.be/YVikY8YDYvM",
         description:
           "Ultrasonic non-destructive evaluation is a technique used in industry to identify sub-surface cracks using ultrasonic waves. We will cover the basic properties of ultrasonic NDE and ask you to interpret a measurement that we do! Email the team lead Madison Yang, mcy2@illinois.edu if you have any questions!",
-          tags: ["Research", "Good for older students", "Mechanics"],
-          links: []
+        tags: ["Research", "Good for older students", "Mechanics"],
+        links: [],
       },
       {
         name: "Pi Tau Sigma Siege Weapons Design Team",
@@ -77,7 +91,7 @@ const exhibitData = [
         description:
           "Our exhibit is a 3D model of a siege weapon we designed along with a presentation of our design and testing process. Email the team lead Sean Taylor, seanlt2@illinois.edu if you have any questions!",
         tags: ["Design Team", "Mechanics", "Art and Design"],
-        links: []
+        links: [],
       },
       {
         name: "Pi Tau Sigma Design Team",
@@ -86,7 +100,7 @@ const exhibitData = [
         description:
           "We built a cool Rube Goldberg type machine on a CAD software and ran animation. Email the team lead Siddharth Kandimalla, ssk5@illinois.edu ifyou have any questions!",
         tags: ["Design Team", "Robotics", "Kid-Friendly"],
-        links: []
+        links: [],
       },
       {
         name: "Illini Formula Electric",
@@ -98,9 +112,9 @@ const exhibitData = [
         links: [
           {
             name: "Website",
-            address: "https://illiniformulaelectric.com/"
-          }
-        ]
+            address: "https://illiniformulaelectric.com/",
+          },
+        ],
       },
       {
         name: "The Rheology Zoo",
@@ -109,7 +123,7 @@ const exhibitData = [
         description:
           "The Rheology Zoo studies fluids, solids, and things-in-between. We challenge conventional notions of fluids and solids, and explain the four key phenomena of rheology which have a vast array of academic and industrial applications. Email the team lead Randy Ewoldt at samyas2@illinois.edu if you have any questions!",
         tags: ["Mechanics", "Good for older students", "Physics"],
-        links: []
+        links: [],
       },
       {
         name: "FSAE Illini Motorsports",
@@ -121,9 +135,9 @@ const exhibitData = [
         links: [
           {
             name: "Website",
-            address: "http://motorsports.illinois.edu"
-          }
-        ]
+            address: "http://motorsports.illinois.edu",
+          },
+        ],
       },
       {
         name: "ASME Special Projects - Music Box",
@@ -132,7 +146,7 @@ const exhibitData = [
         description:
           "'Hail to the Orange' with the large, crank-powered music box! Email Zachary Hernandez at zdh2@illinois.edu for any questions!",
         tags: [],
-        links: []
+        links: [],
       },
       {
         name: "Hydraulic Arm",
@@ -141,7 +155,7 @@ const exhibitData = [
         description:
           "Syringe-Powered Hydraulic Gripping Arm. Email Griffin Sipes at gsipes2@illinois.edu for any further questions!",
         tags: [],
-        links: []
+        links: [],
       },
       {
         name: "Eco Illini Supermileage",
@@ -150,16 +164,17 @@ const exhibitData = [
         description:
           "Student-built prototype gas & electric vehicle that reach over 1100 MPG! Email Team Lead Stefan Kamzol at skamzol2@illnois.edu for any questions.",
         tags: [],
-        links: []
-      }
-    ]
+        links: [],
+      },
+    ],
   },
   {
     name: "Loomis Laboratory of Physics",
     link: "/exhibits/loomis-laboratory",
     latitude: 40.111026,
-    longitude: -88.223440,
-    description: "The Department of Physics at the University of Illinois at Urbana-Champaign is a world leader in theoretical and experimental physics research and education, with an illustrious history, a prestigious faculty, and outstanding students.",
+    longitude: -88.22344,
+    description:
+      "The Department of Physics at the University of Illinois at Urbana-Champaign is a world leader in theoretical and experimental physics research and education, with an illustrious history, a prestigious faculty, and outstanding students.",
     tags: ["Kid-Friendly", "Art and Design", "Physics"],
     exhibits: [
       {
@@ -169,25 +184,33 @@ const exhibitData = [
         description:
           "This Exhibit is the Rube Goldberg Society's 2020-2021 Machine! This machine's goal is to wrap a Pringles can like a birthday/holiday present! Email the team lead Tierny Dufficy, ttd2@illinois.edu if you have any questions!",
         tags: ["Kid-Friendly", "Art and Design", "Physics"],
-        links: []
+        links: [],
       },
       {
         name: "Society of Physics Students",
         rso: "Society of Physics Students",
         video: "https://youtu.be/-s2XHRxrnUs",
-        description: "Fun and interactive demos with various parts of physics, including electricity and magnetism, optics, nuclear physics, and more. Email Team Lead Nicholas Nusgart at nusgart3@illinois.edu for any questions.",
+        description:
+          "Fun and interactive demos with various parts of physics, including electricity and magnetism, optics, nuclear physics, and more. Email Team Lead Nicholas Nusgart at nusgart3@illinois.edu for any questions.",
         tags: [],
-        links: []
-      }
-    ]
+        links: [],
+      },
+    ],
   },
   {
     name: "Transportation Building",
     link: "/exhibits/transportation-building",
-    latitude: 40.111687, 
+    latitude: 40.111687,
     longitude: -88.225196,
-    description: "ISE was created to lead an emerging discipline that unites business with systems engineering.",
-    tags: ["Kid-Friendly", "Future-Oriented", "Art and Design", "Design Team", "Good for older students"],
+    description:
+      "ISE was created to lead an emerging discipline that unites business with systems engineering.",
+    tags: [
+      "Kid-Friendly",
+      "Future-Oriented",
+      "Art and Design",
+      "Design Team",
+      "Good for older students",
+    ],
     exhibits: [
       {
         name: "Supply Chain Maze",
@@ -196,7 +219,7 @@ const exhibitData = [
         description:
           "The Institute of Industrial and Systems Engineers (IISE) presents the Supply Chain Maze Challenge. This interactive activity focused on the ISE principles of efficiency and optimization. Email the team lead Brett Meyers, brettmm2@illinois.edu if you have any questions!",
         tags: ["Kid-Friendly", "Future-Oriented"],
-        links: []
+        links: [],
       },
       {
         name: "Egg Drop Challenge",
@@ -208,13 +231,15 @@ const exhibitData = [
         links: [
           {
             name: "Handout",
-            address: "https://drive.google.com/open?id=1lWBGEAszZ8NpnEsL731_kBI5XeoeS2lf"
+            address:
+              "https://drive.google.com/open?id=1lWBGEAszZ8NpnEsL731_kBI5XeoeS2lf",
           },
           {
             name: "More information",
-            address: "https://sciencing.com/successful-drop-contraptions-science-project-8423692.html"
-          }
-        ]      
+            address:
+              "https://sciencing.com/successful-drop-contraptions-science-project-8423692.html",
+          },
+        ],
       },
       {
         name: "Product Design Lab",
@@ -223,17 +248,37 @@ const exhibitData = [
         description:
           "The Product Design Laboratory is a lab within the Department of Industrial and Enterprise Systems Engineering (ISE) at the University of Illinois at Urbana-Champaign. Join us as we show building information modeling (Revit), product design (Fusion360), and 3D printing. Email Professor Molly Goldstein at mhg3@illinois.edu for any other questions!",
         tags: ["Art and Design", "Design Team", "Good for older students"],
-        links: []
-      }
-    ]
+        links: [],
+      },
+    ],
   },
   {
     name: "Everitt Laboratory",
     link: "/exhibits/everitt",
     latitude: 40.110911,
     longitude: -88.228249,
-    description: "Bioengineering is the application of life science, physical science, mathematics and engineering principles to define and solve problems in biology, medicine, health care and other fields.",
-    tags: ["Sustainable", "Research", "Environment", "Mechanics", "Programming", "Good for older students", "Molecular Scale", "Kid-Friendly", "Prosthetics", "Future-Oriented", "Health and Medicine", "DNA", "Electronics", "Biology", "Data Science", "Robotics", "Smart Technology", "Design Team"],
+    description:
+      "Bioengineering is the application of life science, physical science, mathematics and engineering principles to define and solve problems in biology, medicine, health care and other fields.",
+    tags: [
+      "Sustainable",
+      "Research",
+      "Environment",
+      "Mechanics",
+      "Programming",
+      "Good for older students",
+      "Molecular Scale",
+      "Kid-Friendly",
+      "Prosthetics",
+      "Future-Oriented",
+      "Health and Medicine",
+      "DNA",
+      "Electronics",
+      "Biology",
+      "Data Science",
+      "Robotics",
+      "Smart Technology",
+      "Design Team",
+    ],
     exhibits: [
       {
         name: "The Chroma Glove",
@@ -242,7 +287,7 @@ const exhibitData = [
         description:
           "A new way to see: turning light waves into vibrations. Our glove provides tactile stimulation to differentiate between different RGB values to allow visually impaired people to “feel” color! Email the team lead Sanketh Bhaskar & Athenacia Papoutsis , sanketh2@illinois.edu if you have any questions!",
         tags: ["Prosthetics", "Future-Oriented", "Health and Medicine"],
-        links: []
+        links: [],
       },
       {
         name: "Seeing CRISPR Clear",
@@ -252,11 +297,11 @@ const exhibitData = [
           "Our project “Seeing CRISPR Clear” consists of 2 parts: an interchangeable DNA base pair circuit model and an interactive app downloadable from the APP store, “Exploring CRISPR.” We want to share with others the impacts of CRISPR and explain the future potential of gene editing. Email the team lead Joy Chen and Mia Ko, joychen@illinois.edu if you have any questions!",
         tags: ["DNA", "Electronics", "Biology"],
         links: [
-            {
-              name: "Download the App",
-              address: "http://tinyurl.com/EOHCRISPR"
-            },
-        ]
+          {
+            name: "Download the App",
+            address: "http://tinyurl.com/EOHCRISPR",
+          },
+        ],
       },
       {
         name: "Metastabuddies",
@@ -268,9 +313,10 @@ const exhibitData = [
         links: [
           {
             name: "Handout",
-            address: "https://docs.google.com/document/d/1MG6LXBXfKY5JXBym8VoOauEe9KQCB5FUVhV3W3QJzWo/edit"
-          }
-        ]
+            address:
+              "https://docs.google.com/document/d/1MG6LXBXfKY5JXBym8VoOauEe9KQCB5FUVhV3W3QJzWo/edit",
+          },
+        ],
       },
       {
         name: "Mission Chill: The Blanket That Cools",
@@ -282,18 +328,19 @@ const exhibitData = [
         links: [
           {
             name: "Handout",
-            address: "https://drive.google.com/file/d/1cBQ74eZ1vx8MYiuBf14Gq0vDmlyjit6W/view"
-          }
-        ]          
+            address:
+              "https://drive.google.com/file/d/1cBQ74eZ1vx8MYiuBf14Gq0vDmlyjit6W/view",
+          },
+        ],
       },
       {
         name: "Modeling XNAs",
         rso: "",
         video: "https://youtu.be/1HzlpTX5Reg",
-        description: 
+        description:
           "Modeling futuristic nucleic acids through an interactive website! Watch to learn about XNAs and use our model! Email the team lead Peter Baffoe, pbaffoe2@illinois.edu if you have any questions!",
         tags: ["Future-Oriented", "DNA", "Programming"],
-        links: []
+        links: [],
       },
       {
         name: "Building a Better Shoe",
@@ -302,7 +349,7 @@ const exhibitData = [
         description:
           "Plantar fasciitis effects over 33 million people in the United States. We set out to build a shoe that can combat plantar fasciitis. Email the team lead Fiona Tomlins & Edward Tomlins, fiona2@illinois.edu if you have any questions!",
         tags: ["Biology", "Health and Medicine", "Mechanics"],
-        links: []
+        links: [],
       },
       {
         name: "Compost-A-Glove",
@@ -314,18 +361,18 @@ const exhibitData = [
         links: [
           {
             name: "Presentation",
-            address: "https://app.animaker.com/video/W8B5DOS0HLA9CMSO"
-          }
-        ]
+            address: "https://app.animaker.com/video/W8B5DOS0HLA9CMSO",
+          },
+        ],
       },
       {
         name: "Modeling Scoliosis",
         rso: "Biomedical Engineering Society",
         video: "https://youtu.be/LcuQnKEgJmM",
-        description: 
+        description:
           "Scoliosis is common across the country, but it can be hard to understand what it really means without seeing it for yourself! This project shows 3D comprehensive models of a spine with scoliosis and an unaffected spine to help viewers understand how scoliosis can affect physiology, as well as gain a better understanding of what scoliosis is. Email the team lead Donna Gieser & Antoni Okinczyc, dgieser2@illinois.edu if you have any questions!",
         tags: ["Biology", "Health and Medicine"],
-        links: []
+        links: [],
       },
       {
         name: "Determining Emotions through a Photo",
@@ -334,7 +381,7 @@ const exhibitData = [
         description:
           "Emotional intelligence is *definitely* not a strong suit of machines. But using machine learning technique to build a emotion recognition model, our group developed an Android app that accurately detects the emotion displayed by the user in a photo. Email the team lead Shreya Basu, shreyab4@illinois.edu if you have any questions!",
         tags: ["Data Science", "Good for older students", "Biology"],
-        links: []
+        links: [],
       },
       {
         name: "Cockroach Technokinesis",
@@ -346,21 +393,21 @@ const exhibitData = [
         links: [
           {
             name: "Cockroach Backpack",
-            address: "https://backyardbrains.com/products/roboroachBackpack"
+            address: "https://backyardbrains.com/products/roboroachBackpack",
           },
           {
             name: "More Information",
-            address: "https://www.nature.com/articles/nrn2478"
+            address: "https://www.nature.com/articles/nrn2478",
           },
           {
             name: "More Information",
-            address: "https://www.nature.com/articles/nrn2478"
+            address: "https://www.nature.com/articles/nrn2478",
           },
           {
             name: "Gumpy",
-            address: "http://www.gumpy.org/"
-          }
-        ]
+            address: "http://www.gumpy.org/",
+          },
+        ],
       },
       {
         name: "Covid Remote Health Monitoring",
@@ -372,9 +419,9 @@ const exhibitData = [
         links: [
           {
             name: "Website",
-            address: "https://healthmirroruiuc.wixsite.com/home"
-          }
-        ]
+            address: "https://healthmirroruiuc.wixsite.com/home",
+          },
+        ],
       },
       {
         name: "Virtually Controlled Soft-Robotics Hand",
@@ -386,9 +433,9 @@ const exhibitData = [
         links: [
           {
             name: "Website",
-            address: "https://nychung2.github.io/eoh21/"
-          }
-        ]
+            address: "https://nychung2.github.io/eoh21/",
+          },
+        ],
       },
       {
         name: "SootheStone",
@@ -396,8 +443,12 @@ const exhibitData = [
         video: "https://youtu.be/RsyJtLyxCb0",
         description:
           "The SootheStone is wearable technology that seeks to mitigate anxiety-related harm—monitoring heart rate and cortisol levels to provide real-time feedback to the wearer, and the option of three avenues of alternative stimulation: sight, touch, and smell. Email the team lead Isabella Lebovic at lebovic2@illinois.edu ifyou have any questions.",
-        tags: ["Health and Medicine", "Smart Technology", "Good for older students"],
-        links: []
+        tags: [
+          "Health and Medicine",
+          "Smart Technology",
+          "Good for older students",
+        ],
+        links: [],
       },
       {
         name: "Biomimicry: Robotic Hand",
@@ -409,13 +460,15 @@ const exhibitData = [
         links: [
           {
             name: "CAD Files",
-            address: "https://grabcad.com/library/uiuc-eoh-biomimetic-robotic-hand-1"
+            address:
+              "https://grabcad.com/library/uiuc-eoh-biomimetic-robotic-hand-1",
           },
           {
             name: "Biomimicry Code",
-            address: "https://drive.google.com/open?id=1-KSqQxhncdcDaEKtMSSb5iKQn4ez-ea3"
-          }
-        ]
+            address:
+              "https://drive.google.com/open?id=1-KSqQxhncdcDaEKtMSSb5iKQn4ez-ea3",
+          },
+        ],
       },
       {
         name: "Shazam: The E-Nose",
@@ -424,41 +477,56 @@ const exhibitData = [
         description:
           "Come learn about your olfactory senses and the applications of a digital nose! (Transcript Available). Email Ayusha Acharya at ayushaa2@illinois.edu for any further questions.",
         tags: [],
-        links: []
-      }
-    ]
+        links: [],
+      },
+    ],
   },
   {
     name: "Newmark Civil Engineering Laboratory",
     link: "/exhibits/civil-engineering-laboratory",
-    latitude: 40.114021, 
+    latitude: 40.114021,
     longitude: -88.226546,
     description:
       "The Department of Civil and Environmental Engineering (CEE) at the University of Illinois Urbana-Champaign enjoys an outstanding reputation for excellence in undergraduate and graduate education, and for research that improves the quality of life in our nation and around the world.",
-    tags: ["Water", "Environment", "Weather", "Boats", "Construction", "Mechanics", "Kid-Friendly", "Physics", "Research", "Kid-Friendly", "Trains", "Electronics", "Health and Medicine"],
+    tags: [
+      "Water",
+      "Environment",
+      "Weather",
+      "Boats",
+      "Construction",
+      "Mechanics",
+      "Kid-Friendly",
+      "Physics",
+      "Research",
+      "Kid-Friendly",
+      "Trains",
+      "Electronics",
+      "Health and Medicine",
+    ],
     exhibits: [
       {
         name: "Chicago Underground",
         rso: "",
         video: "https://youtu.be/xuOEzj-AedA",
-        description: 
+        description:
           "Physical model of the Tunnel and Reservoir Plan, TARP, aka “Deep Tunnel” in Chicago, and how it works to protect and improve area waterways and reduce flooding throughout the metropolitan area. Email the team lead Amy Lee, alee241@illinois.edu if you have any questions! Email the team lead Yifan He, yifanhe1@illinois.edu if you have any questions!",
         tags: ["Water", "Environment", "Weather"],
         links: [
           {
             name: "More Information",
-            address: "https://www.arcgis.com/apps/Cascade/index.html?appid=f3804b77acfb42a0941f8bbaf0f93066"
-          }
-        ]
+            address:
+              "https://www.arcgis.com/apps/Cascade/index.html?appid=f3804b77acfb42a0941f8bbaf0f93066",
+          },
+        ],
       },
       {
         name: "Conrete Canoe",
         rso: "UIUC Concrete Canoe",
         video: "https://youtu.be/aygeeq4LNTc",
-        description: 
+        description:
           "We are the Concrete Canoe team and each year we design, build and RACE a canoe made of CONCRETE.  Watch our video to learn more about how we do the impossible and make concrete that floats! Email the team lead Ana Okinczyc, anako2@illinois.edu if you have any questions!",
         tags: ["Boats", "Water", "Construction"],
-        links: []
+        links: [],
       },
       {
         name: "DIY Fluid Mechanics - 101",
@@ -467,7 +535,7 @@ const exhibitData = [
         description:
           "The exhibit presents two simple and fascinating concepts of fluid mechanics through easy demonstrations. These demonstrations can later be performed at home as well, hence the name DIY Fluid Mechanics. Email the team lead Vindhyawasini Prasad, vindhya2@illinois.edu if you have any questions!",
         tags: ["Mechanics", "Kid-Friendly", " Water"],
-        links: []
+        links: [],
       },
       {
         name: "The Amazing Race: Ducks & Dye",
@@ -475,8 +543,8 @@ const exhibitData = [
         video: "https://youtu.be/i7wwXSodocE",
         description:
           "Experience how objects move in rivers! In this exhibit we will show a duck race and a dye release on Boneyard Creek that let us understand how rivers move. Email the team lead Christian Munoz, camunoz4@illinois.edu if you have any questions!",
-          tags: ["Water", " Kid-Friendly", "Environment"],
-          links: []
+        tags: ["Water", " Kid-Friendly", "Environment"],
+        links: [],
       },
       {
         name: "3, 2, 1 Lift-Off! DIY Hydraulic Pressurized Rocket",
@@ -484,8 +552,8 @@ const exhibitData = [
         video: "https://youtu.be/OIqfi0hzRfk",
         description:
           "Let's learn about Rocket Science! Email the team lead Dongchen Wang, dwang53@illinois.edu if you have any questions!",
-        tags: ['Water', "Kid-Friendly", "Physics"],
-        links: []
+        tags: ["Water", "Kid-Friendly", "Physics"],
+        links: [],
       },
       {
         name: "ASCE: Beginner Lessons in Civil Engineering!",
@@ -497,17 +565,17 @@ const exhibitData = [
         links: [
           {
             name: "Brindge Construction Game",
-            address: "https://www.crazygames.com/game/construct-a-bridge"
+            address: "https://www.crazygames.com/game/construct-a-bridge",
           },
           {
             name: "Stop Disasters Game",
-            address: "https://www.stopdisastersgame.org/stop_disasters/"
+            address: "https://www.stopdisastersgame.org/stop_disasters/",
           },
           {
             name: "More information",
-            address: "https://energy.concord.org/energy3d/"
-          }
-        ]
+            address: "https://energy.concord.org/energy3d/",
+          },
+        ],
       },
       {
         name: "Life of Asphalt",
@@ -516,7 +584,7 @@ const exhibitData = [
         description:
           "Making an asphalt concrete road starts by following a challenging cooking recipe: it requires looking into the future and powerful equipment. The Illinois Center for Transportation takes us on a ride through the life of a road paved with asphalt, from the design methods to its recycling stage. Email Team Lead Javier Garcia Mainieri at jjg5@illinois.edu if you have any questions.",
         tags: ["Research", "Kid-Friendly", "Sustainable"],
-        links: []
+        links: [],
       },
       {
         name: "Railroad Block Signal Display",
@@ -528,9 +596,9 @@ const exhibitData = [
         links: [
           {
             name: "Website",
-            address: "https://publish.illinois.edu/aremachapter/"
-          }
-        ]
+            address: "https://publish.illinois.edu/aremachapter/",
+          },
+        ],
       },
       {
         name: "Effectiveness of masks in limiting droplet spread from coughing",
@@ -539,9 +607,9 @@ const exhibitData = [
         description:
           "How do masks help restrict the spread of virus? There are so many varieties of masks available, which one is well suited for your needs? Email Pallav Ranjan at pallavr2@illinois.edu for any further questions.",
         tags: ["Health and Medicine", "Physics", " Environment"],
-        links: []
-      }
-    ]
+        links: [],
+      },
+    ],
   },
   {
     name: "Nuclear Engineering Laboratory",
@@ -571,28 +639,40 @@ const exhibitData = [
         links: [
           {
             name: "Demo 1 Geiger Counter",
-            address: "https://tinyurl.com/Demo1GeigerCounter"
+            address: "https://tinyurl.com/Demo1GeigerCounter",
           },
           {
             name: "Demo 2 Mouse Trap Reactor",
-            address: "https://tinyurl.com/Demo2MousetrapReactor"
+            address: "https://tinyurl.com/Demo2MousetrapReactor",
           },
           {
             name: "Demo 3 Plasma Ball",
-            address: "https://tinyurl.com/Demo3PlasmaBall"
-          }
-        ]
-      }
+            address: "https://tinyurl.com/Demo3PlasmaBall",
+          },
+        ],
+      },
     ],
   },
   {
     name: "Engineering Hall",
     link: "/exhibits/engineering-hall",
-    latitude: 40.110833, 
+    latitude: 40.110833,
     longitude: -88.226923,
     description:
       "Engineering Hall serves all disciplines within the UIUC College of Engineering and is well known for representing the school's colors with its orange bricks and blue roof.",
-    tags: ["Chemistry", "Future-Oriented", "Water", "Sustainable", "Environment", "Robotics", "Smart Technology", "Programming", "Electronics", "Kid-Friendly", "Mechanics"],
+    tags: [
+      "Chemistry",
+      "Future-Oriented",
+      "Water",
+      "Sustainable",
+      "Environment",
+      "Robotics",
+      "Smart Technology",
+      "Programming",
+      "Electronics",
+      "Kid-Friendly",
+      "Mechanics",
+    ],
     exhibits: [
       {
         name: "Filtering Water with Reusable Materials",
@@ -604,9 +684,10 @@ const exhibitData = [
         links: [
           {
             name: "Handout",
-            addres: "https://drive.google.com/open?id=1i27JGww6TBIY4j1mY2SxxroqwA6TGj8R"
-          }
-        ]
+            addres:
+              "https://drive.google.com/open?id=1i27JGww6TBIY4j1mY2SxxroqwA6TGj8R",
+          },
+        ],
       },
       {
         name: "Sustainable Energy is The Future!",
@@ -615,7 +696,7 @@ const exhibitData = [
         description:
           "Sustainable energy is one of the most important things we can focus on to create a longer-lasting future on this planet! Watch this video about our hydrogen fuel cell toy car to see a fun example of reliable energy. Email the team lead Sarah Jacob, sjacob46@illinois.edu if you have any questions!",
         tags: ["Sustainable", "Chemistry", "Future-Oriented"],
-        links: []
+        links: [],
       },
       {
         name: "IUAV: Fun with Drones",
@@ -627,9 +708,9 @@ const exhibitData = [
         links: [
           {
             name: "Website",
-            address: "https://illiniuav.github.io/"
-          }
-        ]
+            address: "https://illiniuav.github.io/",
+          },
+        ],
       },
       {
         name: "Theta Drau",
@@ -641,13 +722,13 @@ const exhibitData = [
         links: [
           {
             name: "Website",
-            address: "https://www.kappathetatau.org"
+            address: "https://www.kappathetatau.org",
           },
           {
             name: "Instagram",
-            address: "https://www.instagram.com/kappathetatau/"
-          }
-        ]
+            address: "https://www.instagram.com/kappathetatau/",
+          },
+        ],
       },
       {
         name: "Marshmallow Catapukt",
@@ -656,7 +737,7 @@ const exhibitData = [
         description:
           "Learn how to build a fun, simple marshmallow catapult with popsicle sticks and rubber bands! Email Saagar Kolachina at saagark2@illinois.edu for any questions you may have!",
         tags: ["Kid-Friendly", "Mechanics"],
-        links: []
+        links: [],
       },
       {
         name: "The Sun",
@@ -665,7 +746,7 @@ const exhibitData = [
         description:
           "Tour the Campus Observatory and learn about the Sun's lifecycle. Email Team Lead Raghava Ravi at raghava4@illinois.edu for any questions you may have!",
         tags: ["Environment", "Programming", "Sustainable"],
-        links: []
+        links: [],
       },
       {
         name: "EIA Bridge Program",
@@ -677,17 +758,18 @@ const exhibitData = [
         links: [
           {
             name: "Website",
-            address: "uiucbridges.wordpress.com"
+            address: "uiucbridges.wordpress.com",
           },
           {
             name: "Instagram",
-            address: "www.instagram.com/uiucbridges/"
+            address: "www.instagram.com/uiucbridges/",
           },
           {
             name: "Crowdfunding Campaign",
-            address: "https://engineersinaction.networkforgood.com/projects/117548-uiuc-eia-year-end-campaign-2020"
-          }
-        ]
+            address:
+              "https://engineersinaction.networkforgood.com/projects/117548-uiuc-eia-year-end-campaign-2020",
+          },
+        ],
       },
       {
         name: "Alma's talking dogs",
@@ -696,9 +778,9 @@ const exhibitData = [
         description:
           "Alma’s Talking Dogs is an organization that aims to bridge communication between dogs and humans through the power of STEM! Email Team Lead Lauren Gil at lgil2@illinois.edu for any querstions you may have!",
         tags: [],
-        links: []
-      }
-    ]
+        links: [],
+      },
+    ],
   },
   {
     name: "National Center for Supercomputing Applications",
@@ -707,7 +789,16 @@ const exhibitData = [
     longitude: -88.2251166,
     description:
       "In Spring 2019, construction began on a three-story addition to the south face of Talbot Laboratory. The expansion enhances the educational experience of NPRE students by giving them access to state-of-the-art laboratories for radiation measurements and nuclear materials.",
-    tags: ["Research", "Smart Technology", "Good for older students", "Physics", "Programming", "Kid-Friendly", "Outer Space", "Water"],
+    tags: [
+      "Research",
+      "Smart Technology",
+      "Good for older students",
+      "Physics",
+      "Programming",
+      "Kid-Friendly",
+      "Outer Space",
+      "Water",
+    ],
     exhibits: [
       {
         name: "NCSA: Can you Imagine? We Can",
@@ -719,26 +810,29 @@ const exhibitData = [
         links: [
           {
             name: "Website",
-            address: "http://www.ncsa.illinois.edu/"
+            address: "http://www.ncsa.illinois.edu/",
           },
           {
             name: "New Projects",
-            address: "https://docs.google.com/presentation/d/e/2PACX-1vQo7bmQSlO_GSqDG_jPuxXSdZt4qXrd0bgTYXugwt5IwSHIxetY6Z1e8V5gAMtOVA/pub?start=false&loop=false&delayms=60000"
+            address:
+              "https://docs.google.com/presentation/d/e/2PACX-1vQo7bmQSlO_GSqDG_jPuxXSdZt4qXrd0bgTYXugwt5IwSHIxetY6Z1e8V5gAMtOVA/pub?start=false&loop=false&delayms=60000",
           },
           {
             name: "Domain and Expertise",
-            address: "https://docs.google.com/presentation/d/e/2PACX-1vS7CfHPxh2XUY5AFRF5YmshVfr2tESYazuAY-D7eu9HJimwFRoKmUM1aqtetUaajQ/pub?start=false&loop=false&delayms=60000"
-          }
+            address:
+              "https://docs.google.com/presentation/d/e/2PACX-1vS7CfHPxh2XUY5AFRF5YmshVfr2tESYazuAY-D7eu9HJimwFRoKmUM1aqtetUaajQ/pub?start=false&loop=false&delayms=60000",
+          },
         ],
       },
       {
-        name: "NCSA – Center for Artificial Intelligence Innovation: Mentoring Tomorrow’s Leaders",
+        name:
+          "NCSA – Center for Artificial Intelligence Innovation: Mentoring Tomorrow’s Leaders",
         rso: "NCSA",
         video: "https://youtu.be/JcZrO9CKZjQ",
         description:
           "We showcase innovative AI solutions that range from healthcare to advanced computing tools to study the Universe. Email the team leads Eliu Huerta & Vlad Kindratenko, gcolella@illinois.edu if you have any questions!",
         tags: ["Good for older students", "Research", "Physics"],
-        links: []
+        links: [],
       },
       {
         name: "NCSA SPIN - Students Pushing INnovation Internship Program",
@@ -747,12 +841,12 @@ const exhibitData = [
         description:
           "The National Center for Supercomputing Applications (NCSA) has a rich history of nurturing innovative concepts, and some of the best ideas have come from highly motivated, creative undergraduates. NSCA's Students Pushing Innovation (SPIN) interns have the opportunity to participate in the Center’s interdisciplinary research efforts in many areas, including digital agriculture, bio and health sciences, earth and environment, astronomy, and many more. Email Olena Kindratenko at kindrat2@illinois.edu if you have any questions!",
         tags: ["Research", "Good for older students", "Programming"],
-        links:[
+        links: [
           {
             name: "Website",
-            address: "http://spin.ncsa.illinois.edu"
-          }
-        ]
+            address: "http://spin.ncsa.illinois.edu",
+          },
+        ],
       },
       {
         name: "NCSA Portfolio",
@@ -761,28 +855,28 @@ const exhibitData = [
         description:
           "A selected portfolio of cutting-edge software and applications with rich visualization offered by the NCSA Software Directorate, ranging from data management, agriculture, natural hazards, community resilience, and social media data analytics. Email Chen Wang at cwang138@illinois.edu for any questions you may have!",
         tags: ["Programming", "Research", "Good for older students"],
-        links:[
+        links: [
           {
             name: "InCore",
-            address: "https://incore.ncsa.Illinois.edu"
+            address: "https://incore.ncsa.Illinois.edu",
           },
           {
             name: "Social Media Macroscope",
-            address: "https://socialmediamacroscope.org"
+            address: "https://socialmediamacroscope.org",
           },
           {
             name: "Farmdoc",
-            address: "https://farmdoc.illinois.edu"
+            address: "https://farmdoc.illinois.edu",
           },
           {
             name: "Clowder Framework",
-            address: "https://clowderframework.org"
+            address: "https://clowderframework.org",
           },
           {
             name: "ISDA",
-            address: "http://ssa.ncsa.illinois.edu/isda/"
-          }
-        ]
+            address: "http://ssa.ncsa.illinois.edu/isda/",
+          },
+        ],
       },
       {
         name: "Student Cluster Competition Team",
@@ -791,7 +885,7 @@ const exhibitData = [
         description:
           "The Student Cluster Competition (SCC) provides an immersive high performance computing experience to undergraduate and high school students, who design and build an HPC cluster, learn scientific applications, apply optimization techniques, and compete in a 48-hour competition to complete a set of benchmarks and real-world scientific workloads.  Come learn more about our team what we worked on for the competition this year! Email Jonathan Nativ at jnativ@illinois.edu for any questions.",
         tags: ["Kid-Friendly", "Research"],
-        links: []
+        links: [],
       },
       {
         name: "NCSA 3D Scientific Visualizations Excerpts",
@@ -800,7 +894,7 @@ const exhibitData = [
         description:
           "NCSA will show a narrated sampler of 3D scientific visualizations developed for outreach, education and research. Samples will include selections narrated by celebrities and focus on science from astrophysics to atmospheric science. Email Olena Kindratenko at kindrat2@illinois.edu for any further questions.",
         tags: ["Outer Space", "Water", "Kid-Friendly"],
-        links: []
+        links: [],
       },
       {
         name: "The New Frontiers Initiative at the University of Illinois",
@@ -809,18 +903,29 @@ const exhibitData = [
         description:
           "The New Frontiers Initiative is an outgrowth of the Blue Waters project responding to the interests of National Geo-spatial Intelligence Agency or NGA to scale-up their computational efforts. In this video, we hear about the project, its early successes, opportunities for collaboration with government agencies, universities and industry and goals for future research at the U of I. Email William Kramer at wtkramer@illinois.edu for any questions you have!",
         tags: ["Future-Oriented", "Research", "Good for older students"],
-        links: []
-      }
+        links: [],
+      },
     ],
   },
   {
     name: "Materials Science and Engineering Building",
     link: "/exhibits/matse",
-    latitude: 40.110923, 
+    latitude: 40.110923,
     longitude: -88.226111,
     description:
-    "Materials engineering focuses on the synthesis of materials in useful quantities, and on the processing of component materials into engineering products.",
-    tags: ["Electronics", "Kid-Friendly", "Chemistry", "Music", "Research", "Mechanics", "Trains", "Physics", "Future-Oriented", "Food"],
+      "Materials engineering focuses on the synthesis of materials in useful quantities, and on the processing of component materials into engineering products.",
+    tags: [
+      "Electronics",
+      "Kid-Friendly",
+      "Chemistry",
+      "Music",
+      "Research",
+      "Mechanics",
+      "Trains",
+      "Physics",
+      "Future-Oriented",
+      "Food",
+    ],
     exhibits: [
       {
         name: "Penny Battery",
@@ -828,8 +933,8 @@ const exhibitData = [
         video: "https://youtu.be/vyPB44tVsqA",
         description:
           "Learn how to make your own battery out of household supplies. Understand why materials are important in designing the batteries of the future! Email the team lead Ian Flueck, iflueck2@illinois.edu if you have any questions!",
-          tags: ["Electronics", "Kid-Friendly", "Chemistry"],
-          links: []
+        tags: ["Electronics", "Kid-Friendly", "Chemistry"],
+        links: [],
       },
       {
         name: "Fun with Bubbles",
@@ -838,7 +943,7 @@ const exhibitData = [
         description:
           "Have you ever seen bubbles that 'float in the air' or do you want to hold bubbles in your hand? Watch this video and have fun with us! Email the team lead Xiangrui Deng, xd2@illinois.edu if you have any questions!",
         tags: ["Kid-Friendly"],
-        links: []
+        links: [],
       },
       {
         name: "Musical Materials Science",
@@ -847,7 +952,7 @@ const exhibitData = [
         description:
           "We created a music video that explains some of the science that researchers in our center work on. You'll also get a chance to meet some of the scientists who were being the creation of this music video. Email the team lead Pamela Pena Martin at pmartin9@illinois.edu if you have any further questions",
         tags: ["Kid-Friendly", "Music", "Research"],
-        links: []
+        links: [],
       },
       {
         name: "Frozen gummy worms and Broken Ships",
@@ -856,7 +961,7 @@ const exhibitData = [
         description:
           "This exhibits demonstrates the change in mechanical properties that may occur to a material due to temperature changes. Email Doha Amer at damer@illinois.edu for any questions you may have!",
         tags: ["Mechanics"],
-        links: []
+        links: [],
       },
       {
         name: "Maglev Mania",
@@ -865,7 +970,7 @@ const exhibitData = [
         description:
           "Email Advay Sudarshan at advays2@illinois.edu if you have any questions!",
         tags: ["Trains", "Physics", "Future-Oriented"],
-        links: []
+        links: [],
       },
       {
         name: "Properties of Candy",
@@ -874,18 +979,24 @@ const exhibitData = [
         description:
           "This exhibit takes an edible twist on looking at the materials properties of glass by comparing it to that of Jolly Ranchers. By adding heat to the Jolly Ranchers and raising the temperature, we can look at the different traits of Jolly Ranchers with its increased ductility and altered properties. Email Robbie Nollett at nollett2@illinois.edu if you have any questions!",
         tags: ["Food", "Kid-Friendly"],
-        links: []
-      }
-    ]
+        links: [],
+      },
+    ],
   },
   {
     name: "Talbot Laboratory",
     link: "/exhibits/talbot",
-    latitude: 40.111867, 
+    latitude: 40.111867,
     longitude: -88.228244,
     description:
       "Aerospace engineers design, analyze, model, simulate, and test aircraft, spacecraft, satellites, missiles, rockets, and the larger systems in which these vehicles operate.",
-    tags: ["Kid-Friendly", "Outer Space", "Art and Design", "Weather", "Good for older students"],
+    tags: [
+      "Kid-Friendly",
+      "Outer Space",
+      "Art and Design",
+      "Weather",
+      "Good for older students",
+    ],
     exhibits: [
       {
         name: "Galaxy In A Bottle",
@@ -894,7 +1005,7 @@ const exhibitData = [
         description:
           "Galaxy In A Bottle is a quick and fun activity that you can do with supplies from your own home! Women In Aerospace (WIA) will show you, step-by-step, how to create your very own Galaxy! Email the team lead Seetha Chalichama, schali4@illinois.edu if you have any questions!",
         tags: ["Kid-Friendly", "Outer Space", "Art and Design"],
-        links: []
+        links: [],
       },
       {
         name: "Weather Balloon Launch",
@@ -903,7 +1014,7 @@ const exhibitData = [
         description:
           "In this exhibit, you will get to experience a weather balloon launch and learn about kind of data is collected. Email the team lead Rebekka Delaney, rebekka2@illinois.edu if you have any questions!",
         tags: ["Weather", "Kid-Friendly", "Good for older students"],
-        links: []
+        links: [],
       },
       {
         name: "Lunar Exploration: Rovers",
@@ -912,7 +1023,7 @@ const exhibitData = [
         description:
           "How do scientists learn what life is like on other planets? How can we use rovers to help us understand the future of humans in space, and how do we get them there? Find out  more at our 'Lunar Exploration; Rovers' exhibit, featuring our very own bug-like rover buddy, MORRTE! Email Courtney Leverenz at cml4@illinois.edu for any questions you may have.",
         tags: [],
-        links: []
+        links: [],
       },
       {
         name: "Orbital Simulator",
@@ -921,7 +1032,7 @@ const exhibitData = [
         description:
           "Ever wondered why our planets move in circles or how are space satellites able to travel to the extents of our universe? Come learn by watching our Orbital Simulator! Email Courtney Leverenz at cml4@illinois.edu for any questions you may have.",
         tags: [],
-        links: []
+        links: [],
       },
       {
         name: "Liquid Nitrogen and Space Shuttle Tile",
@@ -930,7 +1041,7 @@ const exhibitData = [
         description:
           "Come learn about the extreme temperatures of space! See a shuttle tile flown in space, learn about how temperature affects the volume of a balloon, and watch pennies and flowers get so cold they easily break! Email Courtney Leverenz at cml4@illinois.edu for any questions you may have.",
         tags: [],
-        links: []
+        links: [],
       },
       {
         name: "Hybrid Rocket Engine Demo",
@@ -939,7 +1050,7 @@ const exhibitData = [
         description:
           "Come see a hybrid engine hot fire in person! Using solid acrylic and gaseous oxygen we will demonstrate how Newton’s laws come into play! Email Courtney Leverenz at cml4@illinois.edu for any questions you may have.",
         tags: [],
-        links: []
+        links: [],
       },
       {
         name: "Astronaut 101: Tool Design",
@@ -948,7 +1059,7 @@ const exhibitData = [
         description:
           "Ever wondered how astronauts live and work in space as well as wanting to know how you can be a part of it? Come watch our Human Spaceflight exhibit to learn about the tools astronauts use in space and how our very own tools have made it into astronauts' hands! Email Courtney Leverenz at cml4@illinois.edu for any questions you may have.",
         tags: [],
-        links: []
+        links: [],
       },
       {
         name: "Astronaut 101: Mission Patches",
@@ -957,7 +1068,7 @@ const exhibitData = [
         description:
           "What is Human Spaceflight and why are Mission Patches important? Find out in Astronaut 101: Mission Patches! Email Courtney Leverenz at cml4@illinois.edu for any questions you may have.",
         tags: [],
-        links: []
+        links: [],
       },
       {
         name: "Moon Crater Creator",
@@ -966,18 +1077,29 @@ const exhibitData = [
         description:
           "Why are there so many craters on the moon and why aren't there more on Earth? Learn the answers to these questions and create your own moon model with craters at our 'Moon Crater Creator' exhibit! Email Courtney Leverenz at cml4@illinois.edu for any questions you may have.",
         tags: [],
-        links: []
+        links: [],
       },
-    ]
+    ],
   },
   {
     name: "Electrical and Computer Engineering Building",
     link: "/exhibits/eceb",
-    latitude: 40.114961, 
+    latitude: 40.114961,
     longitude: -88.228013,
-    description: 
+    description:
       "Illinois ECE has a rich history that has shaped the department to what it is today. The department is ranked as one of the best in the world, boasting innovative faculty, hands-on classroom experiences, and ground-breaking research",
-    tags: ["Programming", "High School", "Smart Technology", "Future-Oriented", "Electronics", "Sustainable", "Cars", "Design Team", "Robotics", "Kid-Friendly"],
+    tags: [
+      "Programming",
+      "High School",
+      "Smart Technology",
+      "Future-Oriented",
+      "Electronics",
+      "Sustainable",
+      "Cars",
+      "Design Team",
+      "Robotics",
+      "Kid-Friendly",
+    ],
     exhibits: [
       {
         name: "Cybersecurity Breakfast Adventure",
@@ -989,13 +1111,14 @@ const exhibitData = [
         links: [
           {
             name: "Handout",
-            address: "https://drive.google.com/file/d/1RPcA9p0KZ5onJsP5zjDwCo79o-LfOijg/view?ts=605bf721",
+            address:
+              "https://drive.google.com/file/d/1RPcA9p0KZ5onJsP5zjDwCo79o-LfOijg/view?ts=605bf721",
           },
           {
             name: "Website",
-            address: "http://wicys.github.io"
-          }
-        ]          
+            address: "http://wicys.github.io",
+          },
+        ],
       },
       {
         name: "Discover ECE@Illinois",
@@ -1004,7 +1127,7 @@ const exhibitData = [
         description:
           "Discover the wonders of the ECE Department through a snapshot of different classes and projects you can do as a part of ECE@Illinois. Email the team lead Savera Zulfiqar, saveraz2@illinois.edu if you have any questions!",
         tags: ["Electronics", "Programming", "Smart Technology"],
-        links: []
+        links: [],
       },
       {
         name: "Smart String Lights",
@@ -1016,13 +1139,13 @@ const exhibitData = [
         links: [
           {
             name: "Website",
-            address: "https://wece.ece.illinois.edu/"
+            address: "https://wece.ece.illinois.edu/",
           },
           {
             name: "Youtube",
-            address: "https://www.youtube.com/channel/UC0xReaxVbd8Ub7yXOppHttw"
-          }
-        ]
+            address: "https://www.youtube.com/channel/UC0xReaxVbd8Ub7yXOppHttw",
+          },
+        ],
       },
       {
         name: "Office Access Control System",
@@ -1031,7 +1154,7 @@ const exhibitData = [
         description:
           "We are developing a cyber physical security system to enhance the protection of BP offices. Email the team lead Thomas Ng, thomasn3@illinois.edu if you have any questions!",
         tags: ["Smart Technology", "Electronics", "Programming"],
-        links: []
+        links: [],
       },
       {
         name: "Illini Solar Car: Brizo",
@@ -1043,9 +1166,9 @@ const exhibitData = [
         links: [
           {
             name: "Website",
-            address: "www.illinisolarcar.com/brizo"
-          }
-        ]
+            address: "www.illinisolarcar.com/brizo",
+          },
+        ],
       },
       {
         name: "Go Automated Robot Arm",
@@ -1054,7 +1177,7 @@ const exhibitData = [
         description:
           "An Automatic Robotic Arm which plays board games with you using computer vision. Email the team lead Roy Zhou, royzhou2@illinois.edu if you have any questions.",
         tags: ["Robotics", "Programming"],
-        links: []
+        links: [],
       },
       {
         name: "Simulated Arithmetic Logic Unit",
@@ -1063,10 +1186,11 @@ const exhibitData = [
         description:
           "A 4-bit logic unit designed using Minecraft's Redstone. Showcases the basic understanding of computer architecture through everyone's favorite sandbox game. Email the team lead Rohit Narayanan at rohit2@illinois.edu if you have any questions!",
         tags: ["Kid-Friendly", "Programming", "Electronics"],
-        links: []
+        links: [],
       },
       {
-        name: "The Mini-GRAIC Race - A competition for self driving cars you can compete in!",
+        name:
+          "The Mini-GRAIC Race - A competition for self driving cars you can compete in!",
         rso: "",
         video: "https://youtu.be/dtIuADO5FGI",
         description:
@@ -1075,9 +1199,9 @@ const exhibitData = [
         links: [
           {
             name: "Website",
-            address: "https://popgri.github.io/Race/"
-          }
-        ]
+            address: "https://popgri.github.io/Race/",
+          },
+        ],
       },
       {
         name: "ECEB Energy Kisoks",
@@ -1086,7 +1210,7 @@ const exhibitData = [
         description:
           "Learn about how Human-Computer Interaction can be used to promote environmental awareness!  SIGCHI presents two kiosks at the ECEB focused on the university's environmental efforts and how you can make a difference. Email Mitchell Bifeld at mbifeld2@illinois.edu for any questions!",
         tags: ["Sustainable", "Design Team", "Future-Oriented"],
-        links: []
+        links: [],
       },
       {
         name: "ASL Robotic Hand Translator",
@@ -1095,16 +1219,17 @@ const exhibitData = [
         description:
           "We made a robotic hand which is meant to translate text to ASL. Interprets user input and the hand relays visual output. Email Team Leads Salvador Sepulveda & Fernando Sandoval at fs10@illinois.edu if you have any questions!",
         tags: ["High School", "Robotics", "Electronics"],
-        links: []
-      }
-    ]
+        links: [],
+      },
+    ],
   },
   {
     name: "Department of Chemical and Biomolecular Engineering",
     link: "/exhibits/chbe",
     latitude: 40.112079,
     longitude: -88.227145,
-    description: "From fuel cells to disease-fighting drugs, Illinois Chemical Engineers are solving the world's most daunting challenges in health, energy and the environment.",
+    description:
+      "From fuel cells to disease-fighting drugs, Illinois Chemical Engineers are solving the world's most daunting challenges in health, energy and the environment.",
     tags: ["Kid-Friendly", "Chemistry", "DNA"],
     exhibits: [
       {
@@ -1114,7 +1239,7 @@ const exhibitData = [
         description:
           "Elephant's Toothpaste a is a simple and fun science experiment to do at home. It mixes hydrogen peroxide, yeast, soap, and water to make a huge bubbly and colorful mess that resembles toothpaste. Email the team lead Andrew Gondela, agonde3@illinois.edu if you have any questions!",
         tags: ["Kid-Friendly", "Chemistry"],
-        links: []
+        links: [],
       },
       {
         name: "Lava Lamp",
@@ -1123,7 +1248,7 @@ const exhibitData = [
         description:
           "Lava Lamp is fun and easy to do science experiment that incorporates many key chemistry principles. All you have to do is mix vegetable oil, water, and alka seltzer to see some cool bubble action. Email the team lead Katie Sanders, kas11@illinois.edu if you have any questions!",
         tags: ["Kid-Friendly", "Chemistry"],
-        links: []  
+        links: [],
       },
       {
         name: "Big to Little: Understanding the Chemistry of Our World!",
@@ -1132,10 +1257,10 @@ const exhibitData = [
         description:
           "Chemistry is all around us!—in this video we examine the chemistry of our oceans, our clothes, and our cells. Running Waters by Audionautix is licensed under a Creative Commons Attribution 4.0 licence. https://creativecommons.org/licenses/by/4.0, Artist: http://audionautix.com/, Second Nature by Audionautix is licensed under a Creative Commons Attribution 4.0 licence. https://creativecommons.org/licenses/by/4.0/, Artist: http://audionautix.com/. If you have any questions email Ryan Eleveld at eveld2@illinois.edu!",
         tags: ["Kid-Friendly", "Chemistry", "DNA"],
-        links: []
-      }
-    ]
-  }
+        links: [],
+      },
+    ],
+  },
 ];
 
 export default exhibitData;

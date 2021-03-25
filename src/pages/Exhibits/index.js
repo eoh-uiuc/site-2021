@@ -10,8 +10,8 @@ const Exhibits = () => {
   const [viewport, setViewport] = useState({
     width: "100%",
     height: "100%",
-    latitude: 40.1122022,
-    longitude: -88.2270992,
+    latitude: 40.113048,
+    longitude: -88.226468,
     zoom: 16,
   });
   const [popupInfo, setPopupInfo] = useState(null);
