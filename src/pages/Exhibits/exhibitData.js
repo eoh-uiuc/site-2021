@@ -32,7 +32,7 @@ const exhibitData = [
       },
       {
         name: "Tensegrity Table",
-        rso: "",
+        rso: "American Society of Mechanical Engineers",
         video: "https://youtu.be/uUND7IT7z6o",
         description:
           "A 4ftx4ft wooden table supported entirely by steel wires, demonstrating the power of tension forces. Email the team lead Max Marsh, mmarsh31@illinois.edu if you have any questions!",
@@ -67,7 +67,7 @@ const exhibitData = [
         links: [],
       },
       {
-        name: "Standbeest",
+        name: "Strandbeest",
         rso: "American Society of Mechanical Engineers",
         video: "https://youtu.be/pAbJItHPxgw",
         description:
@@ -219,7 +219,23 @@ const exhibitData = [
         description:
           "The Institute of Industrial and Systems Engineers (IISE) presents the Supply Chain Maze Challenge. This interactive activity focused on the ISE principles of efficiency and optimization. Email the team lead Brett Meyers, brettmm2@illinois.edu if you have any questions!",
         tags: ["Kid-Friendly", "Future-Oriented"],
-        links: [],
+        links: [
+          {
+            name: "PDF",
+            address:
+              "https://drive.google.com/file/d/1EZZ4s-kwNIz21_0_W-Smpx2qr1lPdiwH/view?usp=sharing",
+          },
+          {
+            name: "Maze 1",
+            address:
+              "https://drive.google.com/file/d/1iKtxf7B7VNy619ZPYL1qiynNujMl8IlA/view?usp=sharing",
+          },
+          {
+            name: "Maze 2",
+            address:
+              "https://drive.google.com/file/d/1Kc_W-6GoeDXMV7_LbsPaJerAdQ-z5GCI/view?usp=sharing",
+          },
+        ],
       },
       {
         name: "Egg Drop Challenge",
@@ -437,7 +453,7 @@ const exhibitData = [
         rso: "",
         video: "https://youtu.be/0zow2_HSDS8",
         description:
-          "Utilizing computer vision to control a pneumatically controlled soft-robotic hand in Champaign, IL. Email the team lead Amy Lee, alee241@illinois.edu if you have any questions! Email the team lead Nathan Chung, nychung2@illinois.edu if you have any questions!",
+          "Utilizing computer vision to control a pneumatically controlled soft-robotic hand in Champaign, IL. Email the team lead Nathan Chung, nychung2@illinois.edu if you have any questions!",
         tags: ["Robotics", "Programming", "Health and Medicine"],
         links: [
           {
@@ -607,6 +623,11 @@ const exhibitData = [
             name: "Website",
             address: "https://publish.illinois.edu/aremachapter/",
           },
+          {
+            name: "More Information",
+            address:
+              "https://drive.google.com/file/d/1DGKZNaCVkf_e803HYmuhb_5z7z3bZgnx/view",
+          },
         ],
       },
       {
@@ -630,8 +651,8 @@ const exhibitData = [
     tags: ["Environment", "Sustainable", "Physics"],
     exhibits: [
       {
-        name: "American Nuclear Society",
-        rso: "Americann Nuclear Society",
+        name: "Women in Nuclear",
+        rso: "Women in Nuclear",
         video: "https://youtu.be/t04-l41sT1k",
         description:
           "Interactive projects exploring everything nuclear! Email the team lead Dilan Kurukulasuriya, dilantk2@illinois.edu if you have any questions!",
@@ -639,8 +660,8 @@ const exhibitData = [
         links: [],
       },
       {
-        name: "Women in Nuclear",
-        rso: "Women in Nuclear",
+        name: "American Nuclear Society",
+        rso: "American Nuclear Society",
         video: "https://youtu.be/QvMSp6xiJ7w",
         description:
           "Learn about nuclear science with the UIUC Women in Nuclear chapter! We talk about radiation, nuclear power plants, and plasmas. Email Natalie Gaughan at ncg5@illinois.edu for any questions you may have!",
@@ -737,6 +758,11 @@ const exhibitData = [
             name: "Instagram",
             address: "https://www.instagram.com/kappathetatau/",
           },
+          {
+            name: "Poster",
+            address:
+              "https://drive.google.com/file/d/18JWx4qHi5onz1w2pZtWRi9oBbcXlMntl/view?usp=sharing",
+          },
         ],
       },
       {
@@ -758,6 +784,23 @@ const exhibitData = [
           {
             name: "Website",
             address: "/exhibits/generative-art",
+          },
+        ],
+      },
+      {
+        name: "SWEstainable Map Adventure",
+        rso: "Society of Women Engineers",
+        description:
+          "Join Outreach SWE-Illinois on an adventure in learning more about environmental practices and sustainable solutions through a Prezi-style map that includes video demonstrations which can be replicated with at home materials along with worksheets!! For more about the Outreach Committee visit our website.",
+        tags: ["Kid-Friendly", "Sustainable", "Environment"],
+        links: [
+          {
+            name: "Prezi",
+            address: "https://prezi.com/view/jo3ek3DHfxCSJMIMl9Lu/",
+          },
+          {
+            name: "Website",
+            address: "https://www.outreachsweillinois.com/copy-of-college",
           },
         ],
       },
@@ -798,8 +841,8 @@ const exhibitData = [
   {
     name: "National Center for Supercomputing Applications",
     link: "/exhibits/ncsa",
-    latitude: 40.1141028,
-    longitude: -88.2251166,
+    latitude: 40.11484,
+    longitude: -88.225007,
     description:
       "The National Center for Supercomputing Applications (NCSA) is a hub of transdisciplinary research and digital scholarship where University of Illinois faculty, staff, and students, and collaborators from around the globe, unite to address research grand challenges for the benefit of science and society.",
     tags: [
@@ -850,7 +893,7 @@ const exhibitData = [
       {
         name: "NCSA SPIN - Students Pushing INnovation Internship Program",
         rso: "NCSA",
-        video: "https://youtu.be/sQRfBRhWhZ8",
+        video: "https://youtu.be/2SWjPQg2IJo",
         description:
           "The National Center for Supercomputing Applications (NCSA) has a rich history of nurturing innovative concepts, and some of the best ideas have come from highly motivated, creative undergraduates. NSCA's Students Pushing Innovation (SPIN) interns have the opportunity to participate in the Center’s interdisciplinary research efforts in many areas, including digital agriculture, bio and health sciences, earth and environment, astronomy, and many more. Email Olena Kindratenko at kindrat2@illinois.edu if you have any questions!",
         tags: ["Research", "Good for older students", "Programming"],
@@ -862,7 +905,7 @@ const exhibitData = [
         ],
       },
       {
-        name: "NCSA Portfolio",
+        name: "NCSA Software Portfolio",
         rso: "NCSA",
         video: "https://youtu.be/qeRbsxJMOlw",
         description:
@@ -954,7 +997,7 @@ const exhibitData = [
         rso: "Material Advantage",
         video: "https://youtu.be/e-ZkfYuWDJ8",
         description:
-          "Have you ever seen bubbles that 'float in the air' or do you want to hold bubbles in your hand? Watch this video and have fun with us! Email the team lead Xiangrui Deng, xd2@illinois.edu if you have any questions!",
+          "Have you ever seen bubbles that 'float in the air' or do you want to hold bubbles in your hand? Watch this video and have fun with us! Email the team lead Xiangrui Deng, xd8@illinois.edu if you have any questions!",
         tags: ["Kid-Friendly"],
         links: [],
       },
@@ -963,9 +1006,14 @@ const exhibitData = [
         rso: "Illinois Materials Research Science and Engineering Center",
         video: "https://youtu.be/qxg9eBK34Uw",
         description:
-          "We created a music video that explains some of the science that researchers in our center work on. You'll also get a chance to meet some of the scientists who were being the creation of this music video. Email the team lead Pamela Pena Martin at pmartin9@illinois.edu if you have any further questions",
+          "We created a music video that explains some of the science that researchers in our center work on. You'll also get a chance to meet some of the scientists who were behind the creation of this music video. Email the team representative Pamela Pena Martin at pmartin9@illinois.edu if you have any further questions",
         tags: ["Kid-Friendly", "Music", "Research"],
-        links: [],
+        links: [
+          {
+            name: "Website",
+            address: "https://mrsec.illinois.edu/education-and-outreach",
+          },
+        ],
       },
       {
         name: "Frozen gummy worms and Broken Ships",
@@ -1179,7 +1227,7 @@ const exhibitData = [
         links: [
           {
             name: "Website",
-            address: "www.illinisolarcar.com/brizo",
+            address: "https://www.illinisolarcar.com/brizo",
           },
         ],
       },
@@ -1207,12 +1255,21 @@ const exhibitData = [
         rso: "",
         video: "https://youtu.be/dtIuADO5FGI",
         description:
-          "The GRAIC Race is a competition for self-driving cars that you can compete in! Check out our presentation and our website to learn how you can compete! Email team lead Kristina Miller, kmmille2@illinois.edu if you have any questions.",
+          "The GRAIC Race is a competition for self-driving cars that you can compete in! Check out our presentation and our website to learn how you can compete! Email team lead Kristina Miller, kmmille2@illinois.edu if you have any questions. Our zoom room will have people in it to answer your questions during EOH hours on Friday and Saturday. Additionally, please register on the form to participate.",
         tags: ["Robotics", "Programming"],
         links: [
           {
             name: "Website",
-            address: "https://popgri.github.io/Race/",
+            address: "https://popgri.github.io/Race/outreach/",
+          },
+          {
+            name: "Join Zoom",
+            address:
+              "https://illinois.zoom.us/j/85606189745?pwd=ekR5T0JQMjlTTW56ZVBjeWRLQXFwUT09",
+          },
+          {
+            name: "Registration",
+            address: "https://forms.gle/omcPqwuxidXsvg2M6",
           },
         ],
       },

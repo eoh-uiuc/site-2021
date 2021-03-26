@@ -6,9 +6,11 @@ const ExhibitCard = ({ data }) => {
     <div className="exhibit-card-wrapper">
       <div className="exhibit-card-content">
         <p className="exhibit-card-rso-name">{data.rso}</p>
-        <div className="exhibit-card-video">
-          <ReactPlayer width="100%" height="100%" url={data.video} controls />
-        </div>
+        {data.video && (
+          <div className="exhibit-card-video">
+            <ReactPlayer width="100%" height="100%" url={data.video} controls />
+          </div>
+        )}
         <h4 className="exhibit-card-name">{data.name}</h4>
         <div className="exhibit-card-tagline">
           {data.tags.map((tag) => (
