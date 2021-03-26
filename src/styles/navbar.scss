@@ -41,6 +41,12 @@
       display: inline-block;
       padding-right: 20px;
     }
+  }
+
+  @media (max-width: 850px) {
+    .menu-icon {
+      display: inline-block;
+    }
 
     .navbar-logo {
       padding-left: 20px;

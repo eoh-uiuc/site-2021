@@ -1,0 +1,131 @@
+@import "colors";
+
+.exhibits-map-container {
+  p {
+    font-size: 20px;
+  }
+
+  .exhibits-map-wrapper {
+    display: flex;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    .react-map-gl-wrapper {
+      height: 100%;
+      width: 75%;
+      @media (max-width: 630px) {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.exhibits-pin-popup {
+  width: 250px;
+
+  p {
+    line-height: 15px;
+  }
+
+  .exhibits-popup-title {
+    font-size: 15px;
+    margin: 0;
+  }
+
+  .exhibits-popup-description {
+    color: grey;
+    font-size: 12px;
+  }
+}
+
+.exhibits-pin-image {
+  cursor: pointer;
+}
+
+.exhibit-page-wrapper {
+  .exhibit-divider {
+    width: 100%;
+    height: 1px;
+    background-color: grey;
+    margin: 50px 0;
+  }
+
+  .exhibit-videos {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 55px;
+
+    .exhibit-card-wrapper {
+      &:not(:last-child) {
+        margin-right: 40px;
+      }
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-sizing: border-box;
+      box-shadow: 0px 0px 8px 1px #e3e3e3;
+      padding: 18px;
+      margin-bottom: 40px;
+      width: 30%;
+      @media (max-width: 1230px) {
+        width: 45%;
+      }
+      @media (max-width: 745px) {
+        width: 375px;
+      }
+      @media (max-width: 515px) {
+        &:not(:last-child) {
+          margin-right: 0px;
+        }
+        width: 100%;
+      }
+
+      .exhibit-card-rso-name {
+        color: grey;
+        margin: 0 0 1px 0;
+        font-size: 14px;
+      }
+
+      .exhibit-card-video {
+        height: 200px;
+      }
+
+      .exhibit-card-name {
+        margin: 10px 0 10px 0;
+        line-height: 28px;
+      }
+
+      .exhibit-card-description {
+        margin: 0 0 10px 0;
+        line-height: 20px;
+        font-size: 14px;
+        color: grey;
+      }
+
+      .exhibit-card-link {
+        margin-right: 6px;
+        margin-bottom: 5px;
+      }
+
+      .exhibit-card-tagline {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+        color: white;
+
+        .exhibit-card-tag {
+          background-color: $tag;
+          border-radius: 15px;
+          display: inline;
+          padding: 1px 9px;
+          margin: 4px 0px;
+          &:not(:last-child) {
+            margin-right: 4px;
+          }
+          font-size: 11px;
+        }
+      }
+    }
+  }
+}

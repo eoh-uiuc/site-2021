@@ -1,95 +1,83 @@
-import React, { Component } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 import Logo from "../../assets/eoh-puzzle-logo.png";
 import { Squash as Hamburger } from "hamburger-react";
 
-class Navbar extends Component {
-  constructor() {
-    super();
+const Navbar = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+  const [top, setTop] = useState(true);
 
-    this.state = {
-      menuOpen: false,
-      top: true,
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY === 0) {
+        setTop(true);
+      } else {
+        setTop(false);
+      }
     };
-  }
 
-  componentDidMount() {
-    window.addEventListener("scroll", this.handleScroll);
-  }
+    window.addEventListener("scroll", handleScroll);
 
-  componentWillUnmount() {
-    window.removeEventListener("scroll", this.handleScroll);
-  }
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [top]);
 
-  handleScroll = () => {
-    if (window.scrollY === 0) {
-      this.setState({ top: true });
-    } else {
-      this.setState({ top: false });
-    }
-  };
-
-  toggleMenu = () => {
-    console.log("here");
-    this.setState((prevState) => ({
-      menuOpen: !prevState.menuOpen,
-    }));
-  };
-
-  hideMenu = () => {
-    this.setState((prevState) => ({
-      menuOpen: false,
-    }));
+  const hideMenu = () => {
+    setMenuOpen(false);
     window.scrollTo(0, 0);
   };
 
-  render() {
-    return (
-      <nav
-        className={`navbar ${
-          this.state.menuOpen ? "navbar-open" : "navbar-close"
-        } ${!this.state.menuOpen && !this.state.top ? "scrolled" : ""}`}
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
+  return (
+    <nav
+      className={`navbar ${menuOpen ? "navbar-open" : "navbar-close"} ${
+        !menuOpen && !top ? "scrolled" : ""
+      }`}
+    >
+      <Link onClick={hideMenu} to="/">
+        <img className="navbar-logo" src={Logo} alt="logo" />
+      </Link>
+
+      <div className="menu-icon">
+        <Hamburger
+          animation="butterfly"
+          toggle={toggleMenu}
+          toggled={menuOpen}
+        />
+      </div>
+
+      <div
+        className={`navbar-links ${
+          menuOpen ? "menu-links-open" : "menu-links-close"
+        }`}
       >
-        <Link onClick={this.hideMenu} to="/">
-          <img className="navbar-logo" src={Logo} alt="logo" />
+        <Link className="navbar-text" onClick={hideMenu} to="/schedule">
+          Schedule
         </Link>
-
-        <div className="menu-icon">
-          <Hamburger
-            animation="butterfly"
-            toggle={this.toggleMenu}
-            toggled={this.state.menuOpen}
-          />
-        </div>
-
-        <div
-          className={`navbar-links ${
-            this.state.menuOpen ? "menu-links-open" : "menu-links-close"
-          }`}
+        <Link className="navbar-text" onClick={hideMenu} to="/exhibits">
+          Exhibits
+        </Link>
+        <Link className="navbar-text" onClick={hideMenu} to="/visitors">
+          Visitors
+        </Link>
+        <a
+          className="navbar-text"
+          onClick={hideMenu}
+          href="https://grainger.illinois.edu/news/features/EOH-100"
+          target="_blank"
+          rel="noopener noreferrer"
         >
-          <Link className="navbar-text" onClick={this.hideMenu} to="/schedule">
-            Schedule
-          </Link>
-          <Link className="navbar-text" onClick={this.hideMenu} to="/visitors">
-            Visitors
-          </Link>
-          <a
-            className="navbar-text"
-            onClick={this.hideMenu}
-            href="https://grainger.illinois.edu/news/features/EOH-100"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            History
-          </a>
-          <Link className="navbar-text" onClick={this.hideMenu} to="/about">
-            About Us
-          </Link>
-        </div>
-      </nav>
-    );
-  }
-}
+          History
+        </a>
+        <Link className="navbar-text" onClick={hideMenu} to="/about">
+          About Us
+        </Link>
+      </div>
+    </nav>
+  );
+};
 
 export default Navbar;
