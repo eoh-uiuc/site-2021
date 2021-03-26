@@ -731,13 +731,26 @@ const exhibitData = [
         ],
       },
       {
-        name: "Marshmallow Catapukt",
+        name: "Marshmallow Catapult",
         rso: "Engineering Freshman Council",
         video: "https://youtu.be/SwdDF0LHDis",
         description:
           "Learn how to build a fun, simple marshmallow catapult with popsicle sticks and rubber bands! Email Saagar Kolachina at saagark2@illinois.edu for any questions you may have!",
         tags: ["Kid-Friendly", "Mechanics"],
         links: [],
+      },
+      {
+        name: "Art with Processing!",
+        rso: "Engineering Freshman Council",
+        description:
+          "The Engineering Freshman Council is presents “Learn to Make Computer-Generated Art!” tomorrow. It’s a fun, self-guided tour of a programming language called “Processing”, and no experience in coding is required!",
+        tags: ["Kid-Friendly", "Programming"],
+        links: [
+          {
+            name: "Website",
+            address: "/exhibits/generative-art"
+          }
+        ],
       },
       {
         name: "The Sun",
