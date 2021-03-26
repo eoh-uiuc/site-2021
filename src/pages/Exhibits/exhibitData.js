@@ -801,7 +801,7 @@ const exhibitData = [
     latitude: 40.1141028,
     longitude: -88.2251166,
     description:
-      "In Spring 2019, construction began on a three-story addition to the south face of Talbot Laboratory. The expansion enhances the educational experience of NPRE students by giving them access to state-of-the-art laboratories for radiation measurements and nuclear materials.",
+      "The National Center for Supercomputing Applications (NCSA) is a hub of transdisciplinary research and digital scholarship where University of Illinois faculty, staff, and students, and collaborators from around the globe, unite to address research grand challenges for the benefit of science and society.",
     tags: [
       "Research",
       "Smart Technology",
