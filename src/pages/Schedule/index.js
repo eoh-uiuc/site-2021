@@ -11,11 +11,12 @@ const Schedule = () => {
       <p>
         Due to the nature of EOH this year, exhibitors have worked hard to bring
         their exhibits to life through the virtual format! Access these
-        on-demand, interactive exhibit videos under the <i>Exhibits</i> tab in
-        the coming days. Exhibit videos range across all engineering departments
-        and represent a large variety of student organization offered here at
-        Illinois, ensuring that there is an exhibit video that will catch your
-        interests!
+        on-demand, interactive exhibit videos under the <i>Exhibits</i> tab.
+        Exhibit videos range across all engineering departments and represent a
+        large variety of student organization offered here at Illinois, ensuring
+        that there is an exhibit video that will catch your interests! Exhibits
+        were created while following all necessary CDC guidelines and UIUC
+        testing protocols.
       </p>
       <div className="schedule-section-separator" />
 
@@ -57,7 +58,7 @@ const Schedule = () => {
         </div>
       ))}
       <div className="schedule-section-separator" />
-      
+
       <h2>Saturday, March 27</h2>
       {saturdayData.map((d) => (
         <div>

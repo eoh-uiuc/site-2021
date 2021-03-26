@@ -281,6 +281,15 @@ const exhibitData = [
     ],
     exhibits: [
       {
+        name: "Alma's talking dogs",
+        rso: "",
+        video: "https://youtu.be/xuzWcA3k8Ds",
+        description:
+          "Alma’s Talking Dogs is an organization that aims to bridge communication between dogs and humans through the power of STEM! Email Team Lead Lauren Gil at lgil2@illinois.edu for any querstions you may have!",
+        tags: [],
+        links: [],
+      },
+      {
         name: "The Chroma Glove",
         rso: "",
         video: "https://youtu.be/zvrdDiyO4UI",
@@ -748,8 +757,8 @@ const exhibitData = [
         links: [
           {
             name: "Website",
-            address: "/exhibits/generative-art"
-          }
+            address: "/exhibits/generative-art",
+          },
         ],
       },
       {
@@ -783,15 +792,6 @@ const exhibitData = [
               "https://engineersinaction.networkforgood.com/projects/117548-uiuc-eia-year-end-campaign-2020",
           },
         ],
-      },
-      {
-        name: "Alma's talking dogs",
-        rso: "",
-        video: "https://youtu.be/xuzWcA3k8Ds",
-        description:
-          "Alma’s Talking Dogs is an organization that aims to bridge communication between dogs and humans through the power of STEM! Email Team Lead Lauren Gil at lgil2@illinois.edu for any querstions you may have!",
-        tags: [],
-        links: [],
       },
     ],
   },
