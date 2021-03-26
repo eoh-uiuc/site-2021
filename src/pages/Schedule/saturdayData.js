@@ -89,7 +89,13 @@ const saturdayData = [
         name: "Theta Drau - Live Exhibit",
         description:
           "A robot that uses stepper motors and a custom program to draw, write text, and create pictures on an Etch a Sketch.",
-        links: [],
+        links: [
+          {
+            name: "Join Zoom",
+            link:
+              "https://illinois.zoom.us/j/89840970582?pwd=ME04K1hEMENya2F6QUxWbFh3VEhaQT09",
+          },
+        ],
       },
       {
         startTime: "2:30 PM",
@@ -97,7 +103,13 @@ const saturdayData = [
         name: "Virtually Controlled Soft-Robotics Hand - Live Exhibit",
         description:
           "Utilizing computer vision to control a pneumatically controlled soft-robotic hand in Champaign, IL.",
-        links: [],
+        links: [
+          {
+            name: "Join Zoom",
+            link:
+              "https://illinois.zoom.us/j/85022142769?pwd=WGcwSFR5dmFKYUZ4SXpmVWhZS0l5QT09",
+          },
+        ],
       },
     ],
   },
