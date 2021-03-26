@@ -33,7 +33,7 @@ const exhibitData = [
       {
         name: "Tensegrity Table",
         rso: "",
-        video: "https://youtu.be/N8EpTCult0w",
+        video: "https://youtu.be/uUND7IT7z6o",
         description:
           "A 4ftx4ft wooden table supported entirely by steel wires, demonstrating the power of tension forces. Email the team lead Max Marsh, mmarsh31@illinois.edu if you have any questions!",
         tags: ["Mechanics", "Physics", "Construction"],
@@ -51,7 +51,7 @@ const exhibitData = [
       {
         name: "Levitating Water",
         rso: "American Society of Mechanical Engineers",
-        video: "https://youtu.be/ttc763AEZ-w",
+        video: "https://youtu.be/cfX4xUPWUfI",
         description:
           "The levitating water project demonstrates an optical illusion that utilizes the stroboscopic effect. LED strobe lights are positioned along a vertical stream of water and the frequency of the strobe lights are synced up with the frequency of the water droplets, which creates the illusion of floating water droplets when, in reality, the drops are falling naturally. Email the team lead Noboru Myers, noborum2@illinois.edu if you have any questions!",
         tags: ["Kid-Friendly", "Water", "Physics"],
@@ -283,7 +283,7 @@ const exhibitData = [
       {
         name: "Alma's talking dogs",
         rso: "",
-        video: "https://youtu.be/xuzWcA3k8Ds",
+        video: "https://youtu.be/RL1UA-U1p8k",
         description:
           "Alma’s Talking Dogs is an organization that aims to bridge communication between dogs and humans through the power of STEM! Email Team Lead Lauren Gil at lgil2@illinois.edu for any querstions you may have!",
         tags: [],
@@ -386,7 +386,7 @@ const exhibitData = [
       {
         name: "Determining Emotions through a Photo",
         rso: "Biomedical Engineering Society",
-        video: "https://youtu.be/mtdnJXxm3Sg",
+        video: "https://youtu.be/4IIm-5TLI4o",
         description:
           "Emotional intelligence is *definitely* not a strong suit of machines. But using machine learning technique to build a emotion recognition model, our group developed an Android app that accurately detects the emotion displayed by the user in a photo. Email the team lead Shreya Basu, shreyab4@illinois.edu if you have any questions!",
         tags: ["Data Science", "Good for older students", "Biology"],
@@ -395,7 +395,7 @@ const exhibitData = [
       {
         name: "Cockroach Technokinesis",
         rso: "Biomedical Engineering Society",
-        video: "https://youtu.be/dRtrHOu_RH0",
+        video: "https://youtu.be/5K7U8a7F4g8",
         description:
           "We explore the applications of a brain-computer interface by pairing an EEG headset with a cyborg cockroach. Will we be able to control a cockroach using only our minds? Email the team lead Vincent Lam, vl8@illinois.edu if you have any questions!",
         tags: ["Robotics", "Biology", "Electronics"],
@@ -701,7 +701,7 @@ const exhibitData = [
       {
         name: "Sustainable Energy is The Future!",
         rso: "Alpha Omega Epsilon",
-        video: "https://youtu.be/K2RaZOtKjZk",
+        video: "https://youtu.be/QEFO4kY8cMY",
         description:
           "Sustainable energy is one of the most important things we can focus on to create a longer-lasting future on this planet! Watch this video about our hydrogen fuel cell toy car to see a fun example of reliable energy. Email the team lead Sarah Jacob, sjacob46@illinois.edu if you have any questions!",
         tags: ["Sustainable", "Chemistry", "Future-Oriented"],
@@ -742,7 +742,7 @@ const exhibitData = [
       {
         name: "Marshmallow Catapult",
         rso: "Engineering Freshman Council",
-        video: "https://youtu.be/SwdDF0LHDis",
+        video: "https://youtu.be/z97-F3qQ0tU",
         description:
           "Learn how to build a fun, simple marshmallow catapult with popsicle sticks and rubber bands! Email Saagar Kolachina at saagark2@illinois.edu for any questions you may have!",
         tags: ["Kid-Friendly", "Mechanics"],
@@ -1014,7 +1014,7 @@ const exhibitData = [
       {
         name: "Galaxy In A Bottle",
         rso: "Women In Aerospace",
-        video: "https://youtu.be/k9M9fVxef9E",
+        video: "https://youtu.be/Qdmh2nwZbaI",
         description:
           "Galaxy In A Bottle is a quick and fun activity that you can do with supplies from your own home! Women In Aerospace (WIA) will show you, step-by-step, how to create your very own Galaxy! Email the team lead Seetha Chalichama, schali4@illinois.edu if you have any questions!",
         tags: ["Kid-Friendly", "Outer Space", "Art and Design"],
@@ -1186,7 +1186,7 @@ const exhibitData = [
       {
         name: "Go Automated Robot Arm",
         rso: "",
-        video: "https://youtu.be/Z3i9AJpxkzc",
+        video: "https://youtu.be/K9OjURyH7IQ",
         description:
           "An Automatic Robotic Arm which plays board games with you using computer vision. Email the team lead Roy Zhou, royzhou2@illinois.edu if you have any questions.",
         tags: ["Robotics", "Programming"],
@@ -1217,9 +1217,9 @@ const exhibitData = [
         ],
       },
       {
-        name: "ECEB Energy Kisoks",
+        name: "ECEB Energy Kiosks",
         rso: "SIGCHI",
-        video: "https://youtu.be/faqjvWFiSQs",
+        video: "https://youtu.be/PGJoVIfHUGc",
         description:
           "Learn about how Human-Computer Interaction can be used to promote environmental awareness!  SIGCHI presents two kiosks at the ECEB focused on the university's environmental efforts and how you can make a difference. Email Mitchell Bifeld at mbifeld2@illinois.edu for any questions!",
         tags: ["Sustainable", "Design Team", "Future-Oriented"],
@@ -1248,7 +1248,7 @@ const exhibitData = [
       {
         name: "Elephant's Toothpaste",
         rso: "Omega Chi Epsilon",
-        video: "https://youtu.be/Qb-LRKfFHhw",
+        video: "https://youtu.be/rheuqtgkolE",
         description:
           "Elephant's Toothpaste a is a simple and fun science experiment to do at home. It mixes hydrogen peroxide, yeast, soap, and water to make a huge bubbly and colorful mess that resembles toothpaste. Email the team lead Andrew Gondela, agonde3@illinois.edu if you have any questions!",
         tags: ["Kid-Friendly", "Chemistry"],
@@ -1266,7 +1266,7 @@ const exhibitData = [
       {
         name: "Big to Little: Understanding the Chemistry of Our World!",
         rso: "",
-        video: "https://youtu.be/g8j28ovetaE",
+        video: "https://youtu.be/RZ1aK7aDPvQ",
         description:
           "Chemistry is all around us!—in this video we examine the chemistry of our oceans, our clothes, and our cells. Running Waters by Audionautix is licensed under a Creative Commons Attribution 4.0 licence. https://creativecommons.org/licenses/by/4.0, Artist: http://audionautix.com/, Second Nature by Audionautix is licensed under a Creative Commons Attribution 4.0 licence. https://creativecommons.org/licenses/by/4.0/, Artist: http://audionautix.com/. If you have any questions email Ryan Eleveld at eveld2@illinois.edu!",
         tags: ["Kid-Friendly", "Chemistry", "DNA"],
