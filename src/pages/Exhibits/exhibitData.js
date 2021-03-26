@@ -731,7 +731,7 @@ const exhibitData = [
         ],
       },
       {
-        name: "Marshmallow Catapukt",
+        name: "Marshmallow Catapult",
         rso: "Engineering Freshman Council",
         video: "https://youtu.be/SwdDF0LHDis",
         description:
