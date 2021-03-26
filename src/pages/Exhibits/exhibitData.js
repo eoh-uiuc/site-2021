@@ -751,7 +751,7 @@ const exhibitData = [
       {
         name: "EIA Bridge Program",
         rso: "Engineers in Action Bridge Program",
-        video: "https://youtu.be/_aDJMLKvVI0",
+        video: "https://youtu.be/3FIQbJFuDLs",
         description:
           "At EIA Bridge Program, we design and build bridges with rural communities worldwide to strive for a world with equal opportunity. The most physically challenging part of bridge construction is mixing concrete with just cement, sand, gravel, water, shovels, and buckets. In this exhibit, we’ll show you what material ratios make the strongest concrete, how to manually mix concrete as a team with limited resources, and how to stay safe throughout the process to give you a taste of what it’s like building bridges with us. Email Helen Sun at helens2@illinois.edu for any more questions you may have!",
         tags: [],
