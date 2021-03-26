@@ -63,6 +63,15 @@ const Navbar = () => {
         <Link className="navbar-text" onClick={hideMenu} to="/visitors">
           Visitors
         </Link>
+        <a
+          className="navbar-text"
+          onClick={hideMenu}
+          href="https://grainger.illinois.edu/news/features/EOH-100"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          History
+        </a>
         <Link className="navbar-text" onClick={hideMenu} to="/about">
           About Us
         </Link>
