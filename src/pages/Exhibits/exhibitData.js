@@ -583,7 +583,7 @@ const exhibitData = [
       {
         name: "ASCE: Beginner Lessons in Civil Engineering!",
         rso: "American Society of Civil Engineers",
-        video: "https://youtu.be/wQuhuCOtGiE",
+        video: "https://youtu.be/_nxpU8LFuF0",
         description:
           "Come visit our virtual booth for intro lessons on some of our most popular civil engineering studies, including structural engineering, geotechnical engineering, and construction management! Email the team lead Rober Wiggins at rjw5@illinois.edu if you have any questions.",
         tags: ["Kid-Friendly", "Physics", "Construction"],
