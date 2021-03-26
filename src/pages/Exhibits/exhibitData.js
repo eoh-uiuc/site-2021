@@ -653,7 +653,7 @@ const exhibitData = [
       {
         name: "Women in Nuclear",
         rso: "Women in Nuclear",
-        video: "https://youtu.be/t04-l41sT1k",
+        video: "https://youtu.be/QvMSp6xiJ7w",
         description:
           "Interactive projects exploring everything nuclear! Email the team lead Dilan Kurukulasuriya, dilantk2@illinois.edu if you have any questions!",
         tags: ["Environment", "Sustainable", "Physics"],
@@ -662,7 +662,7 @@ const exhibitData = [
       {
         name: "American Nuclear Society",
         rso: "American Nuclear Society",
-        video: "https://youtu.be/QvMSp6xiJ7w",
+        video: "https://youtu.be/t04-l41sT1k",
         description:
           "Learn about nuclear science with the UIUC Women in Nuclear chapter! We talk about radiation, nuclear power plants, and plasmas. Email Natalie Gaughan at ncg5@illinois.edu for any questions you may have!",
         tags: ["Kid-Friendly", "Molecular Scale", "Physics"],
