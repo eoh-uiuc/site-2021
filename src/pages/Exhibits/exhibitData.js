@@ -655,8 +655,8 @@ const exhibitData = [
         rso: "Women in Nuclear",
         video: "https://youtu.be/QvMSp6xiJ7w",
         description:
-          "Interactive projects exploring everything nuclear! Email the team lead Dilan Kurukulasuriya, dilantk2@illinois.edu if you have any questions!",
-        tags: ["Environment", "Sustainable", "Physics"],
+          "Learn about nuclear science with the UIUC Women in Nuclear chapter! We talk about radiation, nuclear power plants, and plasmas. Email Natalie Gaughan at ncg5@illinois.edu for any questions you may have!",
+        tags: ["Kid-Friendly", "Molecular Scale", "Physics"],
         links: [],
       },
       {
@@ -664,8 +664,8 @@ const exhibitData = [
         rso: "American Nuclear Society",
         video: "https://youtu.be/t04-l41sT1k",
         description:
-          "Learn about nuclear science with the UIUC Women in Nuclear chapter! We talk about radiation, nuclear power plants, and plasmas. Email Natalie Gaughan at ncg5@illinois.edu for any questions you may have!",
-        tags: ["Kid-Friendly", "Molecular Scale", "Physics"],
+          "Interactive projects exploring everything nuclear! Email the team lead Dilan Kurukulasuriya, dilantk2@illinois.edu if you have any questions!",
+        tags: ["Environment", "Sustainable", "Physics"],
         links: [
           {
             name: "Demo 1 Geiger Counter",
