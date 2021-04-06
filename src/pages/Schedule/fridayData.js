@@ -28,6 +28,14 @@ const fridayData = [
           "Pre-registration Required - Zoom link will be sent via email after registration. Reshma Saujani is the Founder and CEO of Girls Who Code, the international nonprofit organization working to close the gender gap in technology and change the image of what a computer programmer looks like and does. The organization has reached 500 million people and 300,000 girls in all 50 U.S. states, Canada, India, and the United Kingdom. She is the author of the international bestseller Brave, Not Perfect and the New York Times bestseller Girls Who Code: Learn to Code and Change the World. Reshma’s TED talk, “Teach girls, bravery not perfection,” has more than five million views and has sparked a worldwide conversation about how we’re raising our girls. In 2010, Reshma surged onto the political scene as the first Indian American woman to run for U.S. Congress. Reshma lives in New York City with her husband, Nihal, their sons, Shaan and Sai, and their bulldog, Stanley.",
         links: [
           {
+            name: "MediaSpace Recording",
+            link: "https://mediaspace.illinois.edu/media/t/1_tyuuhumy",
+          },
+          {
+            name: "YouTube Recording",
+            link: "https://www.youtube.com/watch?v=lFwKM03PV2k",
+          },
+          {
             name: "Pre-registration",
             link:
               "https://illinois.zoom.us/webinar/register/WN_ZJt5zyRqSai-ZWvsHnsbFw",
@@ -67,6 +75,11 @@ const fridayData = [
           "Pre-registration Required - Zoom link will be sent via email after registration. From finance to telecommunications, space exploration to civil engineering, our distinguished alumni are leaders in industry, research, and entrepreneurship. They are dedicated and passionate innovators who have made significant contributions to society, industry, and the University of Illinois. Join us for a chat with the 2021 class of Alumni Award for Distinguished Service Recipients and hear about their Grainger Engineering experiences, lessons learned from their careers, and advice for current students.",
         links: [
           {
+            name: "Recording",
+            link:
+              "https://grainger.illinois.edu/news/webinars/distinguished-alumni-chat",
+          },
+          {
             name: "Pre-registration",
             link:
               "https://illinois.zoom.us/webinar/register/WN_gM4b3hFXRgiRu54A0sV84g",
@@ -91,6 +104,14 @@ const fridayData = [
         description:
           "Join us for a panel with the Engineering Ambassadors to explore life at UofI! This will be a great opportunity for prospective students to learn about academics and the resources available to them through the Grainger College of Engineering. Attendees will also be able to ask current students any questions they may have! Panelist majors: Materials Science Engineering, Industrial and Systems Engineering, Electrical and Computer Engineering, Computer Science.",
         links: [
+          {
+            name: "MediaSpace Recording",
+            link: "https://mediaspace.illinois.edu/media/t/1_oagxxww1",
+          },
+          {
+            name: "YouTube Recording",
+            link: "https://www.youtube.com/watch?v=toVgAIQSQr8",
+          },
           {
             name: "Join Zoom",
             link:

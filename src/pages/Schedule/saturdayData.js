@@ -42,6 +42,14 @@ const saturdayData = [
           "Pre-registration required. This is one event you don’t want to miss! Join the on-campus engineering tour guides for a virtual tour of our campus on March 27th, from noon to 1:00 PM! Learn about what it’s like to be a Grainger College of Engineering student and get all your questions answered by engineering students from across the college. The tour will take you around the engineering campus and into some engineering buildings!",
         links: [
           {
+            name: "MediaSpace Recording",
+            link: "https://mediaspace.illinois.edu/media/t/1_pwvj1zzx",
+          },
+          {
+            name: "YouTube Recording",
+            link: "https://www.youtube.com/watch?v=_4lb0IUzfgs",
+          },
+          {
             name: "Join Zoom",
             link:
               "https://illinois.zoom.us/j/88430474061?pwd=SjZ1K2NoWGQ2L2NlS25OcVZ2KzdYdz09",
@@ -66,6 +74,14 @@ const saturdayData = [
         description:
           "Join us for a panel with the Engineering Ambassadors to explore life at UofI! This will be a great opportunity for prospective students to learn about academics and the resources available to them through the Grainger College of Engineering. Attendees will also be able to ask current students any questions they may have! Panelist Majors: BioEngineering, Civil and Environmental Engineering, Materials Science Engineering, Chemical Engineering.",
         links: [
+          {
+            name: "MediaSpace Recording",
+            link: "https://mediaspace.illinois.edu/media/t/1_5aidj071",
+          },
+          {
+            name: "YouTube Recording",
+            link: "https://www.youtube.com/watch?v=BylvoRRQksY",
+          },
           {
             name: "Join Zoom",
             link:
